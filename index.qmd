@@ -14,6 +14,15 @@ listing:
 
 ```{=html}
 <div class="hero-banner">
+
+  <!-- GEMMA logo ────────────────────────────────────────────────────────────
+       Once you have the logo file, replace the placeholder <div> below with:
+         <img src="assets/gemma-logo-white.png" alt="GEMMA" class="hero-logo">
+       Use a white or light-coloured version of the logo (background is dark blue).
+       Recommended: SVG or PNG, roughly 200–300 px wide, transparent background.
+       Also uncomment the three logo-* lines in _quarto.yml for the navbar.  ── -->
+  <div class="hero-logo-placeholder">GEMMA logo</div>
+
   <h1>GEMMA project</h1>
   <p class="lead">
     Advancing greenhouse gas measurement and modelling to support
@@ -24,6 +33,23 @@ listing:
     <a href="research-highlights/index.qmd" class="btn btn-outline-light btn-lg">Research highlights</a>
   </div>
 </div>
+```
+
+```{=html}
+<!-- Feature image ─────────────────────────────────────────────────────────────
+     To replace the placeholder with a real image:
+       1. Copy your image to assets/feature-image.jpg (or .png / .webp)
+       2. Delete the <div class="feature-image-placeholder">…</div> block below
+       3. Uncomment the <img> tag
+       4. Update the alt text to describe what the image shows
+       5. Optionally add a caption by uncommenting the <figcaption> tag
+     Recommended dimensions: 1920 × 600 px, landscape orientation.  ─────────── -->
+<figure class="feature-image-wrap">
+  <img src="assets/feature-image.jpg"
+            alt="UK greenhouse gas monitoring network"
+            class="feature-image"> -->
+  <!-- <figcaption>Optional caption, e.g. "Atmospheric monitoring station at Tacolneston, Norfolk."</figcaption> -->
+</figure>
 ```
 
 ```{=html}

@@ -52,6 +52,95 @@ $link-color:      $primary;
     justify-content: center;
     flex-wrap: wrap;
   }
+
+  // Logo — real image, shown once file is in place
+  .hero-logo {
+    max-height: 90px;
+    max-width: 320px;
+    margin: 0 auto 1.75rem;
+    display: block;
+  }
+
+  // Placeholder box shown before logo file is added
+  .hero-logo-placeholder {
+    background: rgba(255, 255, 255, 0.10);
+    border: 2px dashed rgba(255, 255, 255, 0.30);
+    border-radius: 4px;
+    padding: 0.65rem 2.5rem;
+    display: inline-block;
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    opacity: 0.55;
+    margin-bottom: 1.75rem;
+    pointer-events: none;
+    user-select: none;
+  }
+}
+
+// ── Home page feature image ───────────────────────────────────────────────────
+
+figure.feature-image-wrap {
+  margin: 0;
+  width: 100%;
+  display: block;
+
+  img.feature-image {
+    width: 100%;
+    max-height: 480px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+
+  figcaption {
+    text-align: center;
+    font-size: 0.8rem;
+    color: $secondary;
+    padding: 0.5rem 1rem;
+    background: $light;
+    border-bottom: 1px solid #dee2e6;
+  }
+}
+
+.feature-image-placeholder {
+  width: 100%;
+  height: 360px;
+  background: #e4ebf2;
+  border-top: 1px dashed #aab8c8;
+  border-bottom: 1px dashed #aab8c8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  color: #7a8fa0;
+  pointer-events: none;
+  user-select: none;
+
+  svg {
+    opacity: 0.3;
+    margin-bottom: 0.4rem;
+  }
+
+  .placeholder-label {
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .placeholder-hint {
+    font-size: 0.8rem;
+    opacity: 0.7;
+
+    code {
+      font-size: 0.78rem;
+      background: rgba(0, 0, 0, 0.06);
+      padding: 0.1em 0.35em;
+      border-radius: 3px;
+    }
+  }
 }
 
 // ── Stats bar ─────────────────────────────────────────────────────────────────
