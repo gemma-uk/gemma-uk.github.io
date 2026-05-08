@@ -1,0 +1,13 @@
+# Settings applied to every research highlight in this directory.
+# Individual files can override these by repeating the key in their own frontmatter.
+format:
+  html:
+    toc: true
+    toc-depth: 3
+  typst:
+    # Renders a clean PDF policy brief alongside the HTML page.
+    # The PDF filename matches the .qmd filename automatically.
+    margin:
+      x: 2.5cm
+      y: 3cm
+    fontsize: 11pt

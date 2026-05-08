@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "GEMMA"
+  description: "Greenhouse gas Measurement and Modelling Advancement"
+
+  navbar:
+    background: primary
+    foreground: light
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Research highlights"
+        href: research-highlights/index.qmd
+      - text: "Outputs"
+        href: outputs/index.qmd
+      - text: "News"
+        href: news/index.qmd
+      - text: "Team"
+        href: team.qmd
+    right:
+      - icon: github
+        href: https://github.com/YOUR-ORG/gemma-website
+        aria-label: "GitHub repository"
+
+  page-footer:
+    left: "© 2025 GEMMA project"
+    center: "Funded by UKRI"
+    right: "Built with [Quarto](https://quarto.org)"
+    background: dark
+
+  search:
+    location: navbar
+    type: overlay
+
+  open-graph:
+    site-name: "GEMMA project"
+    description: "Greenhouse gas Measurement and Modelling Advancement"
+
+format:
+  html:
+    theme: [flatly, custom.scss]
+    toc: false
+    link-external-icon: true
+    link-external-newwindow: true

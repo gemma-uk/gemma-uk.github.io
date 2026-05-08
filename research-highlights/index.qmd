@@ -1,0 +1,26 @@
+---
+title: "Research highlights"
+description: >
+  Key findings from the GEMMA project, written for a broad audience.
+  Each highlight is available to download as a PDF policy brief.
+listing:
+  contents:
+    - "*.qmd"
+    - "!index.qmd"
+  type: grid
+  sort: "date desc"
+  categories: true
+  fields: [image, date, title, description, categories]
+  feed: false
+format:
+  html:
+    toc: false
+---
+
+These pages summarise significant findings from the GEMMA project.
+They are written to be accessible to a broad audience — including policy-makers,
+funders, and the interested public — while linking to the underlying peer-reviewed
+publications for readers who want more detail.
+
+Each highlight can be downloaded as a PDF policy brief using the link at the top
+of the page.

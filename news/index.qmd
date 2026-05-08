@@ -1,0 +1,19 @@
+---
+title: "News"
+---
+
+## 2025
+
+**[Month] 2025** — *Project milestone or event title here.*
+Brief description of the news item. Link to [further information](#) if available.
+
+---
+
+## 2024
+
+*News items to be added.*
+
+---
+
+*To add a news item, edit `news/index.qmd` directly. For longer pieces (blog posts,
+event write-ups), we can add individual files here — ask the web team.*

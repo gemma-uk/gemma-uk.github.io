@@ -1,0 +1,35 @@
+---
+title: "Team"
+---
+
+## Principal investigators
+
+*Team member profiles to be added here. Each entry can follow this format:*
+
+::: {.columns}
+::: {.column width="20%"}
+<!-- ![Name](assets/photos/name.jpg){.rounded-circle style="width:100%"} -->
+:::
+::: {.column width="80%"}
+**Dr Jane Smith** · National Physical Laboratory
+
+Role in GEMMA: lead on measurement traceability and primary gas standards.
+Research interests: atmospheric measurement, metrology, climate science.
+
+[j.smith@npl.co.uk](mailto:j.smith@npl.co.uk) | [ORCID](https://orcid.org/0000-0000-0000-0000)
+:::
+:::
+
+---
+
+## Researchers and postdoctoral fellows
+
+*To be completed.*
+
+## Advisory board
+
+*To be completed.*
+
+## Alumni
+
+*To be completed.*

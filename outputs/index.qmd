@@ -1,0 +1,35 @@
+---
+title: "Outputs"
+---
+
+## Publications
+
+Peer-reviewed publications arising from the GEMMA project will be listed here.
+All publications are open access where possible.
+
+*Publications to be added.*
+
+---
+
+## Datasets
+
+Measurement datasets and model outputs are archived in publicly accessible
+repositories.
+
+*Dataset links to be added.*
+
+---
+
+## Software and tools
+
+Open-source tools developed by the GEMMA team:
+
+*Tool descriptions to be added.*
+
+---
+
+## Policy documents
+
+Summaries and briefings prepared for policy audiences are available from the
+[research highlights](../research-highlights/index.qmd) pages, where each
+highlight can be downloaded as a PDF policy brief.

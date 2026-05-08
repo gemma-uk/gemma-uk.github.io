@@ -1,0 +1,79 @@
+---
+title: "About GEMMA"
+---
+
+## Background
+
+The GEMMA project (Greenhouse gas Measurement and Modelling Advancement) was
+established to address a fundamental challenge in climate science: how do we
+know whether reported greenhouse gas emissions are accurate?
+
+Countries submit annual greenhouse gas inventories to international bodies,
+but these are largely based on statistical activity data rather than direct
+atmospheric measurements. GEMMA develops the science and tools needed to
+independently verify these inventories using atmospheric observations and
+advanced inverse modelling techniques.
+
+## Objectives
+
+The project has four principal objectives:
+
+1. **Advance measurement capability** – develop and deploy next-generation
+   instruments for precise, traceable greenhouse gas measurements across the UK
+   and at key international sites.
+
+2. **Improve atmospheric inversion methods** – refine the statistical and
+   computational techniques used to infer surface emissions from atmospheric
+   concentration data.
+
+3. **Verify national inventories** – produce independent, observation-based
+   estimates of UK greenhouse gas emissions and compare these with official
+   reported figures.
+
+4. **Inform policy** – translate scientific findings into accessible, actionable
+   outputs for government, regulators, and international frameworks such as the
+   Global Stocktake under the Paris Agreement.
+
+## Gases and sectors covered
+
+GEMMA focuses on the key greenhouse gases regulated under the Kyoto Protocol
+and Paris Agreement:
+
+| Gas | Main sources covered |
+|---|---|
+| Carbon dioxide (CO₂) | Fossil fuel combustion, land use |
+| Methane (CH₄) | Agriculture, waste, oil and gas |
+| Nitrous oxide (N₂O) | Agriculture, industry |
+| Hydrofluorocarbons (HFCs) | Refrigeration, air conditioning |
+| Perfluorocarbons (PFCs) | Semiconductor manufacture, aluminium |
+| Sulphur hexafluoride (SF₆) | Electrical switchgear |
+
+## Consortium
+
+GEMMA is a collaboration between:
+
+**National Physical Laboratory (NPL)**
+Lead partner. NPL provides world-class measurement science expertise and
+maintains primary gas standards for the UK.
+
+**University of Bristol**
+Atmospheric chemistry and inverse modelling. Bristol leads the development
+of the AGAGE-based inversion framework and contributes to long-term
+monitoring at Mace Head and Tacolneston.
+
+**Met Office**
+Numerical weather prediction and atmospheric transport modelling. The Met
+Office provides NAME dispersion model simulations and integrates GEMMA
+outputs with operational forecast systems.
+
+*Additional partners and collaborators to be listed here.*
+
+## Funding
+
+GEMMA is funded by [UKRI](https://www.ukri.org) under grant reference
+[XXXXXXX]. The project runs from [start date] to [end date].
+
+## Contact
+
+For general enquiries about the project, please contact:
+[gemma@npl.co.uk](mailto:gemma@npl.co.uk)
