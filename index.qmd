@@ -34,20 +34,26 @@ listing:
 ```
 
 ```{=html}
-<!-- Feature image ─────────────────────────────────────────────────────────────
-     To replace the placeholder with a real image:
-       1. Copy your image to assets/feature-image.jpg (or .png / .webp)
-       2. Delete the <div class="feature-image-placeholder">…</div> block below
-       3. Uncomment the <img> tag
-       4. Update the alt text to describe what the image shows
-       5. Optionally add a caption by uncommenting the <figcaption> tag
-     Recommended dimensions: 1920 × 600 px, landscape orientation.  ─────────── -->
-<figure class="feature-image-wrap">
-  <img src="assets/feature-image.png"
-            alt="UK greenhouse gas monitoring network"
-            class="feature-image">
-  <!-- <figcaption>Optional caption, e.g. "Atmospheric monitoring station at Tacolneston, Norfolk."</figcaption> -->
-</figure>
+<!-- Feature split ─────────────────────────────────────────────────────────────
+     Replace assets/uk-emissions-map.png with your image file.
+     The image is displayed at up to 280 px wide at its natural proportions,
+     so portrait-format maps work well here.
+     Update the alt text and the figcaption to describe the specific figure.  -->
+<div class="feature-split">
+  <div class="feature-split-text">
+    <h2>Independent, atmosphere-based estimates of UK greenhouse gas emissions</h2>
+    <p>GEMMA combines measurements from atmospheric monitoring stations across the
+    UK and Ireland with inverse modelling to produce independent estimates of
+    greenhouse gas emissions from each part of the country — providing an evidence
+    base that is separate from the statistical methods used in official greenhouse
+    gas inventories.</p>
+  </div>
+  <div class="feature-split-image">
+    <img src="assets/uk-emissions-map.png"
+         alt="Map of UK greenhouse gas emissions estimated from GEMMA atmospheric inversions">
+    <!-- <figcaption>Optional short caption describing the figure.</figcaption> -->
+  </div>
+</div>
 ```
 
 ```{=html}
@@ -58,16 +64,12 @@ listing:
       <span class="stat-label">Partner organisations</span>
     </div>
     <div class="stat-item">
-      <span class="stat-number">30+</span>
+      <span class="stat-number">10+</span>
       <span class="stat-label">Scientists</span>
     </div>
     <div class="stat-item">
-      <span class="stat-number">5</span>
+      <span class="stat-number">2</span>
       <span class="stat-label">Years of research</span>
-    </div>
-    <div class="stat-item">
-      <span class="stat-number">12+</span>
-      <span class="stat-label">Peer-reviewed publications</span>
     </div>
   </div>
 </div>

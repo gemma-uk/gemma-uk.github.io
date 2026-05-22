@@ -11,12 +11,11 @@ author:
   - name: "Grant Foster"
     affiliation: "UEA"
 categories:
-  - network-expansion
-  - DECC
+  - DECC network
   - halocarbons
   - methane
   - carbon dioxide
-image: /assets/case_study_network_expansion-fig1.png
+image: /research-highlights/figures/case_study_network_expansion-fig1.png
 description: >
   GEMMA has expanded the UK DECC atmospheric monitoring network with two new sites:
   a Picarro CO2/CH4 analyser at Jodrell Bank and a Medusa GCMS system at Invergowrie.
@@ -38,14 +37,14 @@ description: >
 ## Why this matters
 
 The UK DECC (Deriving Emissions linked to Climate Change) network is central to
-independent, atmospheric verification of greenhouse gas emissions across the UK and
+independent, atmospheric evaluation of greenhouse gas emissions across the UK and
 Ireland.
 
 GEMMA has now equipped two additional sites with new instrumentation, increasing
 network coverage and analytical capability across the UK:
 
-- **Jodrell Bank (Cheshire):** a new **Picarro** system measuring **CO2** and **CH4**
-- **Invergowrie (Scotland):** a new **Medusa GCMS** system measuring more than 40
+- **Jodrell Bank (Cheshire):** a new **Picarro** system measuring **CO₂** and **CH₄**
+- **Invergowrie (Scotland):** a new **Medusa Gas Chromatography Mass Spectrometer** system measuring more than 40
   halogenated ozone-depleting substances and greenhouse gases
 
 Together, these upgrades provide stronger observational constraints for UK emissions
@@ -53,28 +52,28 @@ estimation, especially outside southern England and for gases that are difficult
 quantify from bottom-up inventories alone. They also provide a stronger evidence base
 for policy development in each devolved administration.
 
-![Map of the UK and Ireland DECC network showing monitoring sites and the new GEMMA instrumentation at Jodrell Bank and Invergowrie.](/assets/case_study_network_expansion-fig1.png){fig-alt="Map of DECC network expansion highlighting Jodrell Bank and Invergowrie."}
+![Map of the UK and Ireland DECC network showing monitoring sites and the new GEMMA instrumentation at Jodrell Bank and Invergowrie.](/research-highlights/figures/case_study_network_expansion-fig1.png){fig-alt="Map of DECC network expansion highlighting Jodrell Bank and Invergowrie."}
 
 ## What was installed
 
-### Jodrell Bank: continuous CO2 and CH4 measurements
+### Jodrell Bank: continuous CO₂ and CH₄ measurements
 
 At Jodrell Bank, GEMMA installed a **Picarro cavity ring-down spectroscopy analyser**
-for high-frequency CO2 and CH4 observations. This site adds valuable regional coverage
+for high-frequency CO₂ and CH₄ observations. This site adds valuable regional coverage
 for major greenhouse gases and helps improve source attribution across England, Wales,
 and Northern Ireland when combined with other UK and Irish stations.
 
 ### Invergowrie: expanded halocarbon capability with Medusa GCMS
 
-At Invergowrie, GEMMA installed a **Medusa GCMS** system capable of measuring over
+At Invergowrie, GEMMA installed a **Medusa Gas Chromatography Mass Spectrometer** system capable of measuring over
 40 halogenated gases, including:
 
 - HFCs
 - CFCs
 - HCFCs
-- SF6
-- NF3
-- SO2F2
+- SF₆
+- NF₃
+- SO₂F₂
 
 These species are highly climate-relevant, and many are emitted from diffuse or
 sector-specific activities where inventory uncertainty can be large.
@@ -116,3 +115,4 @@ modelling frameworks to:
 - tighten uncertainty ranges on national and devolved-administration emissions
 - improve sectoral interpretation of halocarbon trends
 - provide robust, independent evidence to support UK reporting and mitigation policy
+- reduce the latency between emission changes and their detection in the atmosphere

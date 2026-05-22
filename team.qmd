@@ -4,19 +4,31 @@ title: "Team"
 
 ## Principal investigators
 
-*Team member profiles to be added here. Each entry can follow this format:*
-
-::: {.columns}
-::: {.column width="20%"}
-<!-- ![Name](assets/photos/name.jpg){.rounded-circle style="width:100%"} -->
+::: {.team-entry}
+::: {.team-photo}
+![](assets/photos/tom-gardiner.jpg){fig-alt="Dr Tom Gardiner"}
 :::
-::: {.column width="80%"}
-**Dr Jane Smith** · National Physical Laboratory
+::: {.team-bio}
+**Dr Tom Gardiner** · National Physical Laboratory
 
-Role in GEMMA: lead on measurement traceability and primary gas standards.
+Lead on measurement traceability.
 Research interests: atmospheric measurement, metrology, climate science.
 
-[j.smith@npl.co.uk](mailto:j.smith@npl.co.uk) | [ORCID](https://orcid.org/0000-0000-0000-0000)
+[tg@npl.co.uk](mailto:tg@npl.co.uk) | [ORCID](https://orcid.org/0000-0000-0000-0000)
+:::
+:::
+
+::: {.team-entry}
+::: {.team-photo}
+![](assets/photos/matt-rigby.jpg){fig-alt="Prof Matt Rigby"}
+:::
+::: {.team-bio}
+**Prof Matt Rigby** · University of Bristol
+
+Co-lead on inverse modelling.
+Research interests: atmospheric measurement, metrology, climate science.
+
+[matt.rigby@bristol.ac.uk](mailto:matt.rigby@bristol.ac.uk) | [ORCID](https://orcid.org/0000-0000-0000-0000)
 :::
 :::
 
@@ -30,6 +42,3 @@ Research interests: atmospheric measurement, metrology, climate science.
 
 *To be completed.*
 
-## Alumni
-
-*To be completed.*

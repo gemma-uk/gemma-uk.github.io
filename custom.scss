@@ -141,6 +141,64 @@ figure.feature-image-wrap {
   }
 }
 
+// ── Home page feature split (text left, portrait image right) ───────────────────
+
+.feature-split {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: 3.5rem 4rem;
+  background: $light;
+  border-bottom: 1px solid #dee2e6;
+
+  .feature-split-text {
+    flex: 1;
+
+    h2 {
+      color: $headings-color;
+      font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: $body-color;
+      line-height: 1.65;
+      margin: 0;
+    }
+  }
+
+  .feature-split-image {
+    flex: 0 0 auto;
+    max-width: 280px;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 4px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+    }
+
+    figcaption {
+      font-size: 0.78rem;
+      color: $secondary;
+      margin-top: 0.5rem;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 2.5rem 1.5rem;
+    gap: 2rem;
+
+    .feature-split-image {
+      max-width: 220px;
+      margin: 0 auto;
+    }
+  }
+}
+
 // ── Stats bar ─────────────────────────────────────────────────────────────────
 
 .stats-bar {
@@ -286,6 +344,7 @@ figure.feature-image-wrap {
     font-weight: 600;
     color: $secondary;
     letter-spacing: 0.02em;
+    padding: 0.35rem 0.85rem;
   }
 }
 
@@ -323,6 +382,45 @@ figure.feature-image-wrap {
 
 #TOC {
   font-size: 0.875rem;
+}
+
+// ── Team profiles ────────────────────────────────────────────────────────────
+
+.team-entry {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+
+  .team-photo {
+    flex: 0 0 100px;
+
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+    }
+
+    // Quarto may wrap the image in a <figure> element
+    figure {
+      margin: 0;
+
+      img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        display: block;
+      }
+    }
+  }
+
+  .team-bio {
+    flex: 1;
+    min-width: 0;
+  }
 }
 
 // ── Responsive helpers ────────────────────────────────────────────────────────
