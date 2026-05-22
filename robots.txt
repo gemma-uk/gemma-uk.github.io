@@ -1,0 +1,4 @@
+# Disallow all crawlers while the site is in soft-launch / partner preview.
+# Remove this file (or replace with a permissive policy) when the site goes public.
+User-agent: *
+Disallow: /

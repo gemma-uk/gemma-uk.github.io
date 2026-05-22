@@ -1,10 +1,14 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - robots.txt
 
 website:
   title: "GEMMA"
   description: "Greenhouse gas Measurement and Modelling Advancement"
+
+  site-url: "https://gemma-uk.github.io"
 
   navbar:
     background: primary
@@ -52,3 +56,6 @@ format:
     toc: false
     link-external-icon: true
     link-external-newwindow: true
+    include-in-header:
+      - text: |
+          <meta name="robots" content="noindex, nofollow">

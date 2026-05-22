@@ -1,28 +1,47 @@
-name: Render and publish to GitHub Pages
+name: Publish to GitHub Pages
 
 on:
   push:
     branches: [main]
-  workflow_dispatch:   # allows manual trigger from the GitHub Actions tab
+  workflow_dispatch:   # allows manual trigger from the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one deployment at a time; don't cancel in-progress runs
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write   # needed to push to gh-pages branch
-
     steps:
-      - name: Check out repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-        # Quarto bundles Typst (for PDF rendering) — no extra install needed.
+        # Typst (for PDF policy briefs) is bundled with Quarto — no extra step needed
 
-      - name: Render and publish
-        uses: quarto-dev/quarto-actions/publish@v2
+      - name: Render site
+        uses: quarto-dev/quarto-actions/render@v2
+        # Renders all formats: HTML pages + Typst PDFs for research highlights
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          target: gh-pages   # pushes rendered site to the gh-pages branch
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
