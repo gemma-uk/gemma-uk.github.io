@@ -28,13 +28,13 @@ website:
         href: team.qmd
     right:
       - icon: github
-        href: https://github.com/YOUR-ORG/gemma-website
+        href: https://github.com/gemma-uk/gemma-website
         aria-label: "GitHub repository"
 
   page-footer:
     left: "© 2025 GEMMA project"
     center: "Funded by UKRI"
-    right: "Built with [Quarto](https://quarto.org)"
+    right: "Source code: [GitHub](https://github.com/gemma-uk/gemma-website) · Built with [Quarto](https://quarto.org)"
     background: dark
 
   search:
