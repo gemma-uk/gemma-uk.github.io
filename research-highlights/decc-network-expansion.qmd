@@ -11,7 +11,7 @@ author:
   - name: "Grant Foster"
     affiliation: "UEA"
 categories:
-  - network expansion
+  - network-expansion
   - DECC
   - halocarbons
   - methane

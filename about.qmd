@@ -5,28 +5,24 @@ title: "About GEMMA"
 ## Background
 
 The GEMMA project (Greenhouse gas Measurement and Modelling Advancement) was
-established to address a fundamental challenge in climate science: how do we
-know whether reported greenhouse gas emissions are accurate?
+established to address a fundamental challenge in climate science and government policy: how can we ensure that national greenhouse gas emissions emissions estimates are accurate, timely, and credible?
 
-Countries submit annual greenhouse gas inventories to international bodies,
-but these are largely based on statistical activity data rather than direct
-atmospheric measurements. GEMMA develops the science and tools needed to
-independently verify these inventories using atmospheric observations and
-advanced inverse modelling techniques.
+GEMMA develops the science and tools needed to
+independently evaluate emissions inventories using atmospheric observations and
+advanced inverse modelling techniques. It is designed as a prototype for a future near-real-time operational system that could be used by governments to verify their reported emissions and track progress towards climate targets.
 
 ## Objectives
 
 The project has four principal objectives:
 
 1. **Advance measurement capability** – develop and deploy next-generation
-   instruments for precise, traceable greenhouse gas measurements across the UK
-   and at key international sites.
+   instruments for precise, traceable greenhouse gas measurements across the UK.
 
 2. **Improve atmospheric inversion methods** – refine the statistical and
    computational techniques used to infer surface emissions from atmospheric
    concentration data.
 
-3. **Verify national inventories** – produce independent, observation-based
+3. **Evaluate national inventories** – produce independent, observation-based
    estimates of UK greenhouse gas emissions and compare these with official
    reported figures.
 
@@ -53,27 +49,36 @@ and Paris Agreement:
 GEMMA is a collaboration between:
 
 **National Physical Laboratory (NPL)**
-Lead partner. NPL provides world-class measurement science expertise and
-maintains primary gas standards for the UK.
+Lead partner. NPL provides world-class measurement science and uncertainty quantification expertise and
+is developing primary gas standards.
 
 **University of Bristol**
-Atmospheric chemistry and inverse modelling. Bristol leads the development
-of the AGAGE-based inversion framework and contributes to long-term
-monitoring at Mace Head and Tacolneston.
+Atmospheric chemistry and inverse modelling. Bristol leads the UK Deriving Emissions linked to Climate Change (DECC) network and is a co-founder of the Advanced Global Atmospheric Gases Experiment (AGAGE).
 
 **Met Office**
-Numerical weather prediction and atmospheric transport modelling. The Met
-Office provides NAME dispersion model simulations and integrates GEMMA
-outputs with operational forecast systems.
+Inverse modelling and stakeholder engagement. As a co-founder of the DECC network, the Met Office provides NAME dispersion model simulations and inverse model estimates via the Inversion Technique for Emissions Modelling (InTEM). Their operational forecasting and climate modelling expertise supports GEMMA's long-term vision for a near-real-time operational system.
 
-*Additional partners and collaborators to be listed here.*
+**University of East Anglia (UEA)**
+Atmospheric observations and data analysis. UEA operates the Weybourne
+Atmospheric Observatory monitoring network, an international renowned measurement station that is part of the European Integrated Carbon Observation System (ICOS).
+
+**University of Manchester**
+Atmospheric measurement and source attribution. Manchester contributes
+expertise in greenhouse gas measurement techniques and emissions analysis.
+
+**National Centre for Atmospheric Science (NCAS)**
+National research infrastructure for atmospheric science. NCAS provides
+shared facilities, long-term observational datasets, and expertise that
+underpin GEMMA's measurement and modelling activities.
+
+**National Centre for Earth Observation (NCEO)**
+Earth observation science and data analysis. NCEO contributes ground-based remote sensing and satellite retrieval expertise to complement GEMMA's ground-based network.
 
 ## Funding
 
-GEMMA is funded by [UKRI](https://www.ukri.org) under grant reference
-[XXXXXXX]. The project runs from [start date] to [end date].
+GEMMA is funded by [UKRI](https://www.ukri.org) through the Building a Green Future programme. The project runs from 2024 to 2027.
 
 ## Contact
 
-For general enquiries about the project, please contact:
-[gemma@npl.co.uk](mailto:gemma@npl.co.uk)
+For general enquiries about the project, please contact
+GEMMA Charlotte Massey at NPL.

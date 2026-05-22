@@ -45,7 +45,7 @@ listing:
 <figure class="feature-image-wrap">
   <img src="assets/feature-image.png"
             alt="UK greenhouse gas monitoring network"
-            class="feature-image"> -->
+            class="feature-image">
   <!-- <figcaption>Optional caption, e.g. "Atmospheric monitoring station at Tacolneston, Norfolk."</figcaption> -->
 </figure>
 ```
@@ -54,7 +54,7 @@ listing:
 <div class="stats-bar">
   <div class="stats-inner">
     <div class="stat-item">
-      <span class="stat-number">4</span>
+      <span class="stat-number">7</span>
       <span class="stat-label">Partner organisations</span>
     </div>
     <div class="stat-item">
@@ -118,11 +118,14 @@ reported emissions across the UK and beyond.
 
 ::: {.section-block}
 ::: {.partner-logos}
-<!-- Replace these with actual logo images once available -->
-<!-- Example: <img src="assets/logos/npl-logo.png" alt="National Physical Laboratory"> -->
+<!-- Replace these spans with <img> tags once logo files are available -->
+<!-- Example: <img src="assets/logos/npl-logo.png" alt="National Physical Laboratory (NPL)"> -->
 <span class="partner-name">National Physical Laboratory</span>
 <span class="partner-name">University of Bristol</span>
 <span class="partner-name">Met Office</span>
-<span class="partner-name">UKRI</span>
+<span class="partner-name">University of East Anglia</span>
+<span class="partner-name">University of Manchester</span>
+<span class="partner-name">NCAS</span>
+<span class="partner-name">NCEO</span>
 :::
 :::

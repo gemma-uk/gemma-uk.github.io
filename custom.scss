@@ -193,12 +193,8 @@ figure.feature-image-wrap {
 
 .section-header {
   text-align: center;
+  color: $primary;
   margin-bottom: 2.5rem;
-
-  h2 {
-    color: $primary;
-    margin-bottom: 0.5rem;
-  }
 
   .section-rule {
     width: 50px;
