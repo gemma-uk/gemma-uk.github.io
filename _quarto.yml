@@ -9,9 +9,10 @@ website:
   navbar:
     background: primary
     foreground: light
-    # logo: assets/gemma-logo-white.png   ← uncomment once the file exists
-    # logo-alt: "GEMMA project"
-    # logo-href: index.qmd
+    title: false
+    logo: assets/gemma-logo-transparent-small.png
+    logo-alt: "GEMMA project"
+    logo-href: index.qmd
     left:
       - text: "Home"
         href: index.qmd

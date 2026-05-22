@@ -75,11 +75,11 @@ committed — the GitHub Action renders the site during deployment.
 Useful when editing a specific research highlight:
 
 ```bash
-quarto render research-highlights/uk-hfc-emissions.qmd
+quarto render research-highlights/decc-network-expansion.qmd
 ```
 
 This produces both the HTML page and a PDF (via Typst) in the same directory.
-Open `_site/research-highlights/uk-hfc-emissions.html` in your browser to check it.
+Open `_site/research-highlights/decc-network-expansion.html` in your browser to check it.
 
 ---
 
@@ -98,7 +98,7 @@ gemma-website/
 ├── research-highlights/
 │   ├── index.qmd                  Gallery listing all highlights
 │   ├── _metadata.yml              Shared format settings (HTML + PDF)
-│   ├── uk-hfc-emissions.qmd       Example highlight (copy this as a template)
+│   ├── decc-network-expansion.qmd Example highlight
 │   └── figures/                   Figures used by highlights in this directory
 │       └── hfc-trend-thumbnail.png
 │
@@ -127,7 +127,7 @@ web page and a downloadable PDF policy brief from the same source.
 ### Step 1 — copy the template
 
 ```bash
-cp research-highlights/uk-hfc-emissions.qmd research-highlights/my-new-highlight.qmd
+cp research-highlights/decc-network-expansion.qmd research-highlights/my-new-highlight.qmd
 ```
 
 Use a short, descriptive filename with hyphens and no spaces, for example

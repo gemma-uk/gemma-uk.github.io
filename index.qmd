@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: ""
 pagetitle: "GEMMA – Greenhouse gas Measurement and Modelling Advancement"
 listing:
   - id: recent-highlights
@@ -21,9 +21,7 @@ listing:
        Use a white or light-coloured version of the logo (background is dark blue).
        Recommended: SVG or PNG, roughly 200–300 px wide, transparent background.
        Also uncomment the three logo-* lines in _quarto.yml for the navbar.  ── -->
-  <div class="hero-logo-placeholder">GEMMA logo</div>
-
-  <h1>GEMMA project</h1>
+  <img src="assets/gemma-logo-transparent.png" alt="GEMMA" class="hero-logo">
   <p class="lead">
     Advancing greenhouse gas measurement and modelling to support
     UK climate policy and global emissions accountability.
@@ -45,7 +43,7 @@ listing:
        5. Optionally add a caption by uncommenting the <figcaption> tag
      Recommended dimensions: 1920 × 600 px, landscape orientation.  ─────────── -->
 <figure class="feature-image-wrap">
-  <img src="assets/feature-image.jpg"
+  <img src="assets/feature-image.png"
             alt="UK greenhouse gas monitoring network"
             class="feature-image"> -->
   <!-- <figcaption>Optional caption, e.g. "Atmospheric monitoring station at Tacolneston, Norfolk."</figcaption> -->

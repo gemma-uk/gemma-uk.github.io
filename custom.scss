@@ -1,26 +1,31 @@
 /*-- scss:defaults --*/
 
 // Colour palette
-$primary:         #1b5e8c;
-$secondary:       #6c757d;
-$light:           #f8f9fa;
-$dark:            #212529;
+$primary: #1b5e8c;
+$secondary: #6c757d;
+$light: #f8f9fa;
+$dark: #212529;
 
-$body-color:      #333333;
-$body-bg:         #ffffff;
-$headings-color:  #1b3a5c;
+$body-color: #333333;
+$body-bg: #ffffff;
+$headings-color: #1b3a5c;
 $headings-font-weight: 600;
 $line-height-base: 1.65;
 
-$navbar-bg:       $primary;
-$navbar-fg:       #ffffff;
+$navbar-bg: $primary;
+$navbar-fg: #ffffff;
 
-$footer-bg:       #2c3e50;
-$footer-fg:       #dee2e6;
+$footer-bg: #2c3e50;
+$footer-fg: #dee2e6;
 
-$link-color:      $primary;
+$link-color: $primary;
 
 /*-- scss:rules --*/
+
+#quarto-header .navbar-brand img.navbar-logo {
+  max-height: 3.5rem;
+  width: auto;
+}
 
 // ── Hero section ──────────────────────────────────────────────────────────────
 
@@ -30,13 +35,6 @@ $link-color:      $primary;
   padding: 5.5rem 1.5rem 4.5rem;
   text-align: center;
   margin-bottom: 0;
-
-  h1 {
-    font-size: clamp(2rem, 5vw, 3.25rem);
-    font-weight: 700;
-    margin-bottom: 1rem;
-    letter-spacing: -0.01em;
-  }
 
   p.lead {
     font-size: clamp(1rem, 2.5vw, 1.25rem);
@@ -55,8 +53,8 @@ $link-color:      $primary;
 
   // Logo — real image, shown once file is in place
   .hero-logo {
-    max-height: 90px;
-    max-width: 320px;
+    max-height: 180px;
+    max-width: 640px;
     margin: 0 auto 1.75rem;
     display: block;
   }
