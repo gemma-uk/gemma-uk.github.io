@@ -53,10 +53,23 @@ $link-color: $primary;
 
   // Logo — real image, shown once file is in place
   .hero-logo {
-    max-height: 180px;
-    max-width: 640px;
+    max-width: min(480px, 80vw);
+    width: 100%;
+    height: auto;
     margin: 0 auto 1.75rem;
     display: block;
+  }
+
+  @media (max-width: 576px) {
+    padding: 3.5rem 1.25rem 3rem;
+
+    .hero-logo {
+      max-width: min(280px, 72vw);
+    }
+
+    p.lead {
+      font-size: 1rem;
+    }
   }
 
   // Placeholder box shown before logo file is added
@@ -253,6 +266,10 @@ figure.feature-image-wrap {
   text-align: center;
   color: $primary;
   margin-bottom: 2.5rem;
+
+  &>h2 {
+    margin-top: 2rem;
+  }
 
   .section-rule {
     width: 50px;

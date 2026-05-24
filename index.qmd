@@ -78,8 +78,6 @@ listing:
 ## About the project {.section-header}
 
 ::: {.section-block}
-::: {.columns}
-::: {.column width="60%"}
 The GEMMA project (Greenhouse gas Measurement and Modelling Advancement) is a
 UK research collaboration bringing together expertise in atmospheric measurement,
 inverse modelling, and climate science. Our goal is to improve the accuracy and
@@ -91,18 +89,6 @@ and combine these with state-of-the-art atmospheric models to independently veri
 reported emissions across the UK and beyond.
 
 [Read more about GEMMA](about.qmd){.btn .btn-primary .mt-2}
-:::
-::: {.column width="40%"}
-::: {.callout-note appearance="minimal"}
-**Key objectives**
-
-- Develop and validate new greenhouse gas measurement methods
-- Improve atmospheric inversion techniques for emissions estimation
-- Provide independent verification of national greenhouse gas inventories
-- Produce actionable evidence for policy-makers
-:::
-:::
-:::
 :::
 
 ## Recent research highlights {.section-header}
