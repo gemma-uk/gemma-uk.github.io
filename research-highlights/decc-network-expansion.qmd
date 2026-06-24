@@ -15,7 +15,7 @@ categories:
   - halocarbons
   - methane
   - carbon dioxide
-image: /research-highlights/figures/case_study_network_expansion-fig1.png
+image: /research-highlights/figures/decc-network-expansion-fig1.png
 description: >
   GEMMA has expanded the UK DECC atmospheric monitoring network with two new sites:
   a Picarro CO2/CH4 analyser at Jodrell Bank and a Medusa GCMS system at Invergowrie.
@@ -52,7 +52,7 @@ estimation, especially outside southern England and for gases that are difficult
 quantify from bottom-up inventories alone. They also provide a stronger evidence base
 for policy development in each devolved administration.
 
-![Map of the UK and Ireland DECC network showing monitoring sites and the new GEMMA instrumentation at Jodrell Bank and Invergowrie.](/research-highlights/figures/case_study_network_expansion-fig1.png){fig-alt="Map of DECC network expansion highlighting Jodrell Bank and Invergowrie."}
+![Map of the UK and Ireland DECC network showing monitoring sites and the new GEMMA instrumentation at Jodrell Bank and Invergowrie.](/research-highlights/figures/decc-network-expansion-fig1.png){fig-alt="Map of DECC network expansion highlighting Jodrell Bank and Invergowrie."}
 
 ## What was installed
 

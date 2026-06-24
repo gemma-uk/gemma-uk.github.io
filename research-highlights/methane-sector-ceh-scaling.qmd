@@ -1,0 +1,99 @@
+---
+title: "Sector-level methane emission estimates using CEH sectoral scaling"
+date: 2026-06-24
+author:
+  - name: "Alice Ramsden"
+    affiliation: "Met Office"
+  - name: "Alison Redington"
+    affiliation: "Met Office"
+  - name: "Alistair Manning"
+    affiliation: "Met Office"
+categories:
+  - methane
+  - inverse-modelling
+  - emissions-sectors
+  - agriculture
+  - energy
+  - waste
+image: /research-highlights/figures/methane-sector-ceh-scaling-fig1.png
+description: >
+  GEMMA has applied the InTEM atmospheric inverse modelling system to estimate
+  UK methane emissions by sector — agriculture, energy, and waste — by combining
+  top-down inversion output with spatial data from the Centre for Ecology &
+  Hydrology (CEH) and EDGAR. Results reveal differences in magnitude and trend
+  compared with the UK greenhouse gas inventory, with implications for how
+  emissions are reported and tracked over time.
+---
+
+::: {.pdf-download-bar}
+**Download this page as a PDF policy brief:**
+[Download PDF](methane-sector-ceh-scaling.pdf){.btn .btn-sm .btn-primary}
+:::
+
+::: {.highlight-meta}
+**Authors:** Alice Ramsden, Alison Redington, and Alistair Manning (Met Office) \
+**Published:** 24 June 2026 \
+**Related publication:** [Atmospheric observations consistent with reported decline in the UK's methane emissions (2013–2020)](https://doi.org/10.5194/acp-21-16257-2021)
+:::
+
+## Why this matters
+
+The UK's official greenhouse gas inventory (GHGI) relies on "bottom-up"
+calculations based on activity data and emission factors. Independently verifying
+these figures at sector level — agriculture, energy, and waste — is important for
+policy credibility and for identifying where reported trends may need revision.
+
+GEMMA uses "top-down" atmospheric inverse modelling, which works backwards from
+atmospheric measurements to estimate where and how much methane (CH₄) was emitted.
+By combining these estimates with spatial information about where different sectors
+operate — drawn from the Centre for Ecology & Hydrology (CEH) and the Emissions
+Database for Global Atmospheric Research (EDGAR) — it becomes possible to attribute
+modelled emissions to individual sectors.
+
+This method is useful for comparing broad trends in sector-level emissions, though
+a current lack of uncertainty data from CEH and EDGAR limits how precisely
+differences with the inventory can be interpreted.
+
+## What GEMMA did
+
+GEMMA used the Inverse Technique for Emission Modelling (InTEM) to produce
+estimates of total UK CH₄ emissions and applied CEH sectoral proportions to
+split these into contributions from agriculture, energy, and waste. Results
+were compared with the UK greenhouse gas inventory submitted in 2026.
+
+Key findings by sector:
+
+- **Agriculture:** InTEM estimates are slightly higher than the GHGI for most
+  years and show no clear long-term trend.
+- **Energy:** InTEM estimates lower emissions in 1990 than the GHGI, and the
+  reduction between 1990 and 2025 is smaller in InTEM than in the inventory.
+- **Waste:** InTEM estimates are lower than the GHGI for most years. Both
+  approaches show a declining trend, but InTEM does not reproduce the peak in
+  waste emissions in the mid-1990s reported in the inventory.
+
+![InTEM sector-level CH₄ emission estimates compared with the UK greenhouse gas inventory, 1990–2025.](/research-highlights/figures/methane-sector-ceh-scaling-fig1.png){fig-alt="Two-panel figure showing InTEM CH4 emissions scaled by CEH sectoral proportions on the left, and UK greenhouse gas inventory CH4 estimates on the right, covering 1990 to 2025."}
+
+## Scientific and policy impact
+
+This work provides an independent check on the UK's sector-level methane reporting
+and highlights specific areas — notably energy and waste — where top-down estimates
+diverge from the inventory. These divergences do not necessarily indicate error in
+either approach, but they flag areas warranting closer scrutiny and targeted
+measurement.
+
+The method is currently limited by the absence of formal uncertainty estimates from
+CEH and EDGAR, which constrains how precisely differences can be interpreted. Addressing
+this is a priority for future work.
+
+## What comes next
+
+- Develop a method for quantifying realistic uncertainty in these sector-level
+  estimates, accounting for inversion posterior uncertainties and uncertainties in
+  CEH/EDGAR sectoral attribution.
+- Investigate the influence of point versus diffuse methane sources in CEH/EDGAR
+  on the overall sector split; use high-resolution (6 km) CEH data to improve
+  accuracy.
+- Use spatially flat emission priors in the inversions to reduce the influence of
+  the prior on the sector split.
+- Extend the approach to other greenhouse gases, such as nitrous oxide (N₂O), to
+  attribute seasonal patterns to specific sectors or geographical regions.

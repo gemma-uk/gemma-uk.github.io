@@ -1,0 +1,96 @@
+---
+title: "Sector-level methane emission estimates using secondary tracer observations"
+date: 2026-06-24
+author:
+  - name: "Alice Ramsden"
+    affiliation: "Met Office"
+  - name: "Alison Redington"
+    affiliation: "Met Office"
+  - name: "Alistair Manning"
+    affiliation: "Met Office"
+categories:
+  - methane
+  - inverse-modelling
+  - isotopes
+  - ethane
+  - fossil-fuel
+image: /research-highlights/figures/methane-sector-tracers-fig1.png
+description: >
+  GEMMA has tested whether adding methane isotope ratios and ethane observations
+  to the InTEM inverse modelling system can separate fossil-fuel from non-fossil-fuel
+  methane emissions. Whilst synthetic data tests showed the approach is theoretically
+  viable, current knowledge of isotopic source signatures across the UK is not yet
+  precise enough to improve on standard methane-only inversions.
+---
+
+::: {.pdf-download-bar}
+**Download this page as a PDF policy brief:**
+[Download PDF](methane-sector-tracers.pdf){.btn .btn-sm .btn-primary}
+:::
+
+::: {.highlight-meta}
+**Authors:** Alice Ramsden, Alison Redington, and Alistair Manning (Met Office) \
+**Published:** 24 June 2026 \
+**Related publications:** [Using high-frequency observations of δ¹³C-CH₄ and δ²H-CH₄ and uncertain regional isotopic signatures to estimate sources of UK methane emissions](https://doi.org/10.5194/egusphere-2026-779); [Quantifying fossil fuel methane emissions using observations of atmospheric ethane and an uncertain emission ratio](https://doi.org/10.5194/acp-22-3911-2022)
+:::
+
+## Why this matters
+
+Separating fossil-fuel (FF) methane emissions — from gas leaks, oil extraction,
+and coal mines — from non-fossil-fuel (non-FF) sources such as agriculture and
+waste is important for targeting mitigation policy effectively.
+
+Conventional atmospheric inversion methods estimate total methane but cannot
+independently distinguish between FF and non-FF sources. Secondary observations
+carry information about the origin of the gas: methane isotope ratios (δ¹³C-CH₄)
+differ between fossil and biological sources, and ethane is co-emitted with fossil
+methane but not with biological methane. Incorporating these "tracers" into the
+inversion system offers a route to sector attribution that is independent of
+inventory assumptions.
+
+This approach depends on the ongoing expansion of ethane and methane isotope
+observations across the UK, and requires a well-characterised understanding of
+source signatures — the isotopic composition and ethane:methane ratios associated
+with each emission type.
+
+## What GEMMA did
+
+GEMMA tested whether adding methane isotope observations (δ¹³C-CH₄) to the
+Inverse Technique for Emission Modelling (InTEM) system could improve estimates
+of the FF and non-FF sector split across the UK.
+
+**Synthetic data tests:** Using artificially generated observations based on
+isotope data from Heathfield (HFD) and Invergowrie (IVG), the method successfully
+estimated FF and non-FF methane emissions across the UK — an improvement over a
+standard methane-only inversion. However, when realistic uncertainties were placed
+on the source signatures, accuracy declined and results became more dependent on
+the assumed prior sector split.
+
+**Real-world tests:** Using real isotope observations and current knowledge of
+source signatures, results showed no improvement over a standard methane-only
+inversion. This indicates that existing understanding of source signatures across
+the UK is not yet precise enough to constrain FF versus non-FF emissions.
+
+![δ¹³C-CH₄ source signatures for fossil-fuel and non-fossil-fuel methane averaged onto the 25 km NAME model grid.](/research-highlights/figures/methane-sector-tracers-fig1.png){fig-alt="Two-panel map showing delta 13C-CH4 source signatures on the 25km NAME resolution grid: fossil-fuel sector on the left, non-fossil-fuel sector on the right, based on Royal Holloway and isoMET project observations."}
+
+## Scientific and policy impact
+
+This work establishes the conditions under which isotope-based sector attribution
+is feasible and identifies the key limiting factor: the precision of source
+signature knowledge. It provides a clear roadmap for the observational and
+modelling work needed before this approach can contribute robustly to
+policy-relevant UK emissions reporting.
+
+As ethane and isotope monitoring expands through the GEMMA programme, the
+conditions for making this method effective are progressively being put in place.
+
+## What comes next
+
+- Use ethane and methane isotope observations together in the inversion to provide
+  greater combined constraint on fossil-fuel emissions.
+- Use the InTEM system with ethane observations and fixed ethane:methane priors
+  to test the approach in a system with reduced prior uncertainty.
+- Continue incorporating additional ethane and methane isotope ratio observations
+  from the UK network as they become available.
+- Set more informative emission ratio and source signature priors to reduce
+  overall uncertainty in the modelling system.
