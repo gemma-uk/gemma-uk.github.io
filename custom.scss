@@ -253,22 +253,32 @@ figure.feature-image-wrap {
 // ── Section blocks ────────────────────────────────────────────────────────────
 
 .section-block {
-  padding: 3.5rem 1rem;
+  // Little top padding — the section title sits directly above, so a big gap here
+  // just strands the title. Keep generous bottom padding for section separation.
+  padding: 1.5rem 1rem 2.75rem;
 
   &.section-tinted {
     background: $light;
     border-top: 1px solid #dee2e6;
     border-bottom: 1px solid #dee2e6;
+    padding-top: 2.5rem;
   }
 }
 
+// NB: Quarto stamps this class on BOTH the wrapping <section> and its <h2>. The base
+// rule therefore lands on both; we use it only to zero the container margin and drive
+// all spacing from the heading (margin-top) plus the section-block padding below.
 .section-header {
-  text-align: center;
-  color: $primary;
-  margin-bottom: 2.5rem;
+  margin-bottom: 0;
 
-  &>h2 {
-    margin-top: 2rem;
+  &>h2,
+  &>.h2 {
+    text-align: center;
+    color: $primary;
+    margin-top: 2.75rem;   // breathing room above the title
+    margin-bottom: 0;      // content spacing comes from section-block padding-top
+    padding-bottom: 0;
+    border-bottom: none;   // drop Quarto's default full-width h2 underline here
   }
 
   .section-rule {
@@ -296,8 +306,13 @@ figure.feature-image-wrap {
   }
 
   .card-img-top {
-    object-fit: cover;
+    // Highlight figures are often wide multi-panel plots; `contain` keeps them
+    // legible rather than cropping to an unreadable sliver. Swap back to `cover`
+    // once purpose-made ~4:3 thumbnails are supplied per highlight.
+    object-fit: contain;
     height: 190px;
+    background: $light;
+    padding: 0.35rem;
     border-radius: 6px 6px 0 0;
   }
 
@@ -341,10 +356,22 @@ figure.feature-image-wrap {
   align-items: center;
   justify-content: center;
   gap: 2rem 3.5rem;
-  padding: 1.5rem 0;
+  padding: 0.5rem 0 1.5rem;
+
+  a.partner-logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    text-decoration: none;
+  }
 
   img {
-    max-height: 55px;
+    // Explicit height (not max-height) — SVG logos with a viewBox but no
+    // width/height attribute otherwise get sized by the browser's fallback
+    // intrinsic-size algorithm, which can render them tiny.
+    height: 55px;
+    width: auto;
     max-width: 160px;
     object-fit: contain;
     filter: grayscale(15%);
@@ -356,16 +383,76 @@ figure.feature-image-wrap {
     }
   }
 
-  .partner-name {
-    font-size: 0.95rem;
+  // Shown until a partner's real logo file is added to assets/logos/.
+  .partner-logo-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    min-width: 150px;
+    padding: 0.4rem 1rem;
+    border: 1.5px dashed #b7c4d1;
+    border-radius: 4px;
+    background: rgba(27, 94, 140, 0.03);
+    font-size: 0.72rem;
     font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
     color: $secondary;
-    letter-spacing: 0.02em;
-    padding: 0.35rem 0.85rem;
+    letter-spacing: 0.01em;
+    opacity: 0.85;
+    transition: opacity 0.2s, border-color 0.2s, color 0.2s;
+  }
+
+  a.partner-logo:hover .partner-logo-placeholder {
+    opacity: 1;
+    border-color: $primary;
+    color: $primary;
   }
 }
 
 // ── Individual research highlight pages ───────────────────────────────────────
+
+// "Key points" summary box at the top of each highlight — the takeaways a busy
+// reader gets even if they read nothing else.
+.key-points {
+  background: #eaf2fb;
+  border-left: 4px solid $primary;
+  border-radius: 0 4px 4px 0;
+  padding: 1.25rem 1.5rem 1.25rem 1.75rem;
+  margin-bottom: 2rem;
+
+  // The label is a bold paragraph (`**Key points**`) so it also renders in the
+  // Typst PDF; styled up here for the web.
+  >p:first-child {
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    color: $primary;
+    margin: 0 0 0.6rem;
+
+    strong {
+      text-transform: uppercase;
+      font-weight: 700;
+      color: $primary;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding-left: 1.1rem;
+  }
+
+  li {
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: $body-color;
+    margin-bottom: 0.35rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
 
 .highlight-meta {
   background: $light;

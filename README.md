@@ -105,9 +105,6 @@ gemma-website/
 ├── outputs/
 │   └── index.qmd                  Publications, datasets, software
 │
-├── news/
-│   └── index.qmd                  Project news
-│
 ├── assets/
 │   └── logos/                     Partner logos (PNG, SVG)
 │

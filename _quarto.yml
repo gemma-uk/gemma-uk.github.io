@@ -1,8 +1,19 @@
 project:
   type: website
   output-dir: _site
+  # Explicit render list of the site's pages. This keeps internal Markdown docs
+  # (e.g. HANDOFF.md) out of the published site. Add new page globs here.
+  render:
+    - "*.qmd"
+    - "outputs/*.qmd"
+    - "research-highlights/*.qmd"
   resources:
     - robots.txt
+  # The shared Typst config in research-highlights/_metadata.yml also applies to the
+  # listing index, which produces an unwanted (unlinked) PDF. Quarto can't disable an
+  # inherited format per-page, so remove that one orphan after rendering.
+  post-render:
+    - rm -f _site/research-highlights/index.pdf
 
 website:
   title: "GEMMA"
@@ -26,8 +37,6 @@ website:
         href: research-highlights/index.qmd
       - text: "Outputs"
         href: outputs/index.qmd
-      - text: "News"
-        href: news/index.qmd
       - text: "Team"
         href: team.qmd
     right:
@@ -49,6 +58,9 @@ website:
     site-name: "GEMMA project"
     description: "Greenhouse gas Measurement and Modelling Advancement"
     image: /assets/gemma-logo-og.png
+
+# UK-style dates (e.g. "24 June 2026") on title blocks and listing cards.
+date-format: "D MMMM YYYY"
 
 format:
   html:

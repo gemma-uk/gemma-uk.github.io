@@ -10,11 +10,8 @@ author:
     affiliation: "Met Office"
 categories:
   - methane
-  - inverse-modelling
-  - emissions-sectors
-  - agriculture
-  - energy
-  - waste
+  - inverse modelling
+  - emissions by sector
 image: /research-highlights/figures/methane-sector-ceh-scaling-fig1.png
 description: >
   GEMMA has applied the InTEM atmospheric inverse modelling system to estimate
@@ -25,14 +22,27 @@ description: >
   emissions are reported and tracked over time.
 ---
 
+::: {.key-points}
+**Key points**
+
+- GEMMA produced independent, atmosphere-based estimates of UK methane emissions
+  split across **agriculture, energy, and waste**, using the InTEM inverse model with
+  sectoral maps from CEH and EDGAR.
+- Agricultural estimates sit **slightly above** the national inventory with no clear
+  trend, while **energy and waste diverge more** — flagging areas that warrant closer
+  scrutiny and targeted measurement.
+- The method gives an independent check on sector-level reporting, but is currently
+  **limited by the lack of formal uncertainty data** from CEH and EDGAR.
+:::
+
+::: {.content-visible when-format="html"}
 ::: {.pdf-download-bar}
 **Download this page as a PDF policy brief:**
 [Download PDF](methane-sector-ceh-scaling.pdf){.btn .btn-sm .btn-primary}
 :::
+:::
 
 ::: {.highlight-meta}
-**Authors:** Alice Ramsden, Alison Redington, and Alistair Manning (Met Office) \
-**Published:** 24 June 2026 \
 **Related publication:** [Atmospheric observations consistent with reported decline in the UK's methane emissions (2013–2020)](https://doi.org/10.5194/acp-21-16257-2021)
 :::
 
@@ -50,16 +60,14 @@ operate — drawn from the Centre for Ecology & Hydrology (CEH) and the Emission
 Database for Global Atmospheric Research (EDGAR) — it becomes possible to attribute
 modelled emissions to individual sectors.
 
-This method is useful for comparing broad trends in sector-level emissions, though
-a current lack of uncertainty data from CEH and EDGAR limits how precisely
-differences with the inventory can be interpreted.
-
 ## What GEMMA did
 
 GEMMA used the Inverse Technique for Emission Modelling (InTEM) to produce
 estimates of total UK CH₄ emissions and applied CEH sectoral proportions to
 split these into contributions from agriculture, energy, and waste. Results
 were compared with the UK greenhouse gas inventory submitted in 2026.
+
+## What we found
 
 Key findings by sector:
 
@@ -73,7 +81,7 @@ Key findings by sector:
 
 ![InTEM sector-level CH₄ emission estimates compared with the UK greenhouse gas inventory, 1990–2025.](/research-highlights/figures/methane-sector-ceh-scaling-fig1.png){fig-alt="Two-panel figure showing InTEM CH4 emissions scaled by CEH sectoral proportions on the left, and UK greenhouse gas inventory CH4 estimates on the right, covering 1990 to 2025."}
 
-## Scientific and policy impact
+## What this means for policy
 
 This work provides an independent check on the UK's sector-level methane reporting
 and highlights specific areas — notably energy and waste — where top-down estimates

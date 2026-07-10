@@ -53,7 +53,6 @@ custom.scss              # all custom styles — Sass variables then rules
 index.qmd                # home page (hero, stats bar, listing of recent highlights)
 about.qmd                # project background, objectives, consortium, funding
 team.qmd                 # PI and researcher profiles
-news/index.qmd           # chronological news items (hand-edited for now)
 outputs/index.qmd        # publications, datasets, software, policy documents
 research-highlights/
   _metadata.yml          # shared HTML + Typst format settings for all highlights

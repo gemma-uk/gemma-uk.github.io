@@ -13,10 +13,18 @@ All publications are open access where possible.
 
 ## Datasets
 
-Measurement datasets and model outputs are archived in publicly accessible
-repositories.
+GEMMA supports open access to data. Measurement datasets from the project's
+observation networks are archived in publicly accessible repositories and made
+available under open licences.
 
-*Dataset links to be added.*
+**Weybourne Atmospheric Observatory**
+Greenhouse gas measurements from the Weybourne Atmospheric Observatory are archived on
+the [ICOS Carbon Portal](https://data.icos-cp.eu/portal/#%7B%22filterCategories%22%3A%7B%22project%22%3A%5B%22icos%22%5D%2C%22level%22%3A%5B1%2C2%5D%2C%22stationclass%22%3A%5B%22ICOS%22%5D%2C%22station%22%3A%5B%22iAS_WAO%22%5D%7D%7D).
+
+**UK DECC and GEMMA networks**
+Long-term ground-based greenhouse gas and ozone-depleting substance measurements from
+the GEMMA and DECC networks are archived at the
+[Centre for Environmental Data Analysis (CEDA)](https://data.ceda.ac.uk/badc/uk-decc-network/data).
 
 ---
 

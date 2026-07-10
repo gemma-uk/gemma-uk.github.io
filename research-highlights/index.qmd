@@ -10,6 +10,7 @@ listing:
   type: grid
   sort: "date desc"
   categories: true
+  date-format: "D MMMM YYYY"
   fields: [image, date, title, description, categories]
   feed: false
 format:
@@ -17,7 +18,34 @@ format:
     toc: false
 ---
 
-These pages summarise significant findings from the GEMMA project. 
+<!-- ───────────────────────────────────────────────────────────────────────────
+  RESEARCH HIGHLIGHT TEMPLATE — for authors adding new highlights
+  ─────────────────────────────────────────────────────────────────────────────
+  Each highlight is a .qmd file in this folder. It renders as both a web page and
+  a one-page PDF policy brief (branding + compaction in typst-template.typ and
+  _metadata.yml). To keep the PDF on a single A4 page, keep body text to roughly
+  550 words plus one figure.
 
-Each highlight can be downloaded as a PDF policy brief using the link at the top
-of the page.
+  Standard section order (see any existing highlight for a worked example):
+
+    1. Key points        — ::: {.key-points} with a `**Key points**` label and
+                            3–4 bullets. The takeaways for a reader who reads
+                            nothing else.
+    2. Why this matters   — the policy problem BEFORE the work. Context only:
+                            no results, no limitations.
+    3. What GEMMA did     — one short paragraph of method. Infrastructure
+                            highlights may use "What was installed" instead.
+    4. What we found      — the findings, with the figure. (Infrastructure
+                            highlights fold this into "What was installed".)
+    5. What this means for policy — what is different now the work is done.
+    6. What comes next    — planned follow-on work.
+
+  Frontmatter conventions:
+    - date: YYYY-MM-DD (displayed as "D MMMM YYYY" site-wide)
+    - image: the figure used on listing cards
+    - categories: use the controlled vocabulary only —
+        gas:   methane · carbon dioxide · nitrous oxide · halocarbons
+        theme: measurement network · inverse modelling · emissions by sector
+    - Wrap the .pdf-download-bar and .highlight-meta blocks in
+      ::: {.content-visible when-format="html"} so they stay out of the PDF.
+─────────────────────────────────────────────────────────────────────────────── -->

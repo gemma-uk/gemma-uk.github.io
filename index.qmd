@@ -9,6 +9,7 @@ listing:
     type: grid
     max-items: 3
     sort: "date desc"
+    date-format: "D MMMM YYYY"
     fields: [image, date, title, description, categories]
 ---
 
@@ -60,7 +61,7 @@ listing:
 <div class="stats-bar">
   <div class="stats-inner">
     <div class="stat-item">
-      <span class="stat-number">7</span>
+      <span class="stat-number">9</span>
       <span class="stat-label">Partner organisations</span>
     </div>
     <div class="stat-item">
@@ -88,7 +89,9 @@ We develop novel measurement techniques, deploy cutting-edge observation network
 and combine these with state-of-the-art atmospheric models to independently verify
 reported emissions across the UK and beyond.
 
-[Read more about GEMMA](about.qmd){.btn .btn-primary .mt-2}
+::: {style="text-align: center; margin-top: 1.5rem;"}
+[Read more about GEMMA](about.qmd){.btn .btn-primary}
+:::
 :::
 
 ## Recent research highlights {.section-header}
@@ -106,14 +109,19 @@ reported emissions across the UK and beyond.
 
 ::: {.section-block}
 ::: {.partner-logos}
-<!-- Replace these spans with <img> tags once logo files are available -->
-<!-- Example: <img src="assets/logos/npl-logo.png" alt="National Physical Laboratory (NPL)"> -->
-<span class="partner-name">National Physical Laboratory</span>
-<span class="partner-name">University of Bristol</span>
-<span class="partner-name">Met Office</span>
-<span class="partner-name">University of East Anglia</span>
-<span class="partner-name">University of Manchester</span>
-<span class="partner-name">NCAS</span>
-<span class="partner-name">NCEO</span>
+<!-- Each partner links to its homepage. Once a logo file lands in assets/logos/,
+     swap the placeholder <span> for an <img> (see University of Bristol below).
+     NB: keep each <a>...</a> on a single line — splitting it across lines makes
+     Pandoc parse it as an HTML block (its own paragraph) instead of inline content,
+     which breaks the flex row into a stacked column. -->
+<a class="partner-logo" href="https://www.npl.co.uk" target="_blank" rel="noopener" aria-label="National Physical Laboratory"><span class="partner-logo-placeholder">National Physical Laboratory</span></a>
+<a class="partner-logo" href="https://www.bristol.ac.uk" target="_blank" rel="noopener" aria-label="University of Bristol"><img src="assets/logos/university-of-bristol.svg" alt="University of Bristol"></a>
+<a class="partner-logo" href="https://www.metoffice.gov.uk" target="_blank" rel="noopener" aria-label="Met Office"><img src="assets/logos/met-office.png" alt="Met Office"></a>
+<a class="partner-logo" href="https://www.uea.ac.uk" target="_blank" rel="noopener" aria-label="University of East Anglia"><img src="assets/logos/uea.png" alt="University of East Anglia"></a>
+<a class="partner-logo" href="https://www.manchester.ac.uk" target="_blank" rel="noopener" aria-label="University of Manchester"><span class="partner-logo-placeholder">University of Manchester</span></a>
+<a class="partner-logo" href="https://ncas.ac.uk" target="_blank" rel="noopener" aria-label="National Centre for Atmospheric Science"><img src="assets/logos/ncas.png" alt="National Centre for Atmospheric Science"></a>
+<a class="partner-logo" href="https://www.nceo.ac.uk" target="_blank" rel="noopener" aria-label="National Centre for Earth Observation"><img src="assets/logos/nceo.png" alt="National Centre for Earth Observation"></a>
+<a class="partner-logo" href="https://www.ed.ac.uk" target="_blank" rel="noopener" aria-label="University of Edinburgh"><img src="assets/logos/university-of-edinburgh.jpeg" alt="University of Edinburgh"></a>
+<a class="partner-logo" href="https://le.ac.uk" target="_blank" rel="noopener" aria-label="University of Leicester"><img src="assets/logos/university-of-leicester.png" alt="University of Leicester"></a>
 :::
 :::

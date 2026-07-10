@@ -1,13 +1,23 @@
 # Settings applied to every research highlight in this directory.
 # Individual files can override these by repeating the key in their own frontmatter.
+
+# The custom PDF download bar covers the PDF link, so hide Quarto's built-in
+# "Other Formats" links in the sidebar.
+format-links: false
+
 format:
   html:
     toc: true
     toc-depth: 3
   typst:
-    # Renders a clean PDF policy brief alongside the HTML page.
-    # The PDF filename matches the .qmd filename automatically.
+    # Branded, one-page A4 policy brief. The layout is compact by design so that a
+    # highlight within the content budget (≈550 words + one figure) fits one page.
+    # See typst-template.typ for the branding and compaction rules.
+    template-partials:
+      - typst-template.typ
+    papersize: a4
+    fontsize: 9.5pt
+    columns: 2
     margin:
-      x: 2.5cm
-      y: 3cm
-    fontsize: 11pt
+      x: 1.6cm
+      y: 1.7cm

@@ -11,10 +11,10 @@ author:
   - name: "Grant Foster"
     affiliation: "UEA"
 categories:
-  - DECC network
-  - halocarbons
   - methane
   - carbon dioxide
+  - halocarbons
+  - measurement network
 image: /research-highlights/figures/decc-network-expansion-fig1.png
 description: >
   GEMMA has expanded the UK DECC atmospheric monitoring network with two new sites:
@@ -23,14 +23,26 @@ description: >
   substantially improves constraints on UK halocarbon emissions.
 ---
 
+::: {.key-points}
+**Key points**
+
+- GEMMA has expanded the UK DECC atmospheric monitoring network with two new sites:
+  a **Picarro CO₂/CH₄ analyser at Jodrell Bank** and a **Medusa GC-MS at Invergowrie**.
+- The additions strengthen top-down emissions estimates for the **devolved
+  administrations**, and — with four Medusa systems now operating — make the UK and
+  Ireland the **most intensively monitored countries in the world for halocarbons**.
+- Data from the new instruments will be integrated into GEMMA's inverse modelling to
+  tighten uncertainty on national and devolved-administration emissions.
+:::
+
+::: {.content-visible when-format="html"}
 ::: {.pdf-download-bar}
 **Download this page as a PDF policy brief:**
 [Download PDF](decc-network-expansion.pdf){.btn .btn-sm .btn-primary}
 :::
+:::
 
 ::: {.highlight-meta}
-**Authors:** Joe Pitt, Kieran Stanley, Simon O'Doherty (University of Bristol), and Grant Foster (UEA) \
-**Published:** 22 May 2026 \
 **Related network information:** [University of Bristol ACRG DECC network page](https://www.bristol.ac.uk/chemistry/research/acrg/current/decc.html)
 :::
 
@@ -52,7 +64,21 @@ estimation, especially outside southern England and for gases that are difficult
 quantify from bottom-up inventories alone. They also provide a stronger evidence base
 for policy development in each devolved administration.
 
+::: {.content-visible when-format="html"}
 ![Map of the UK and Ireland DECC network showing monitoring sites and the new GEMMA instrumentation at Jodrell Bank and Invergowrie.](/research-highlights/figures/decc-network-expansion-fig1.png){fig-alt="Map of DECC network expansion highlighting Jodrell Bank and Invergowrie."}
+:::
+
+```{=typst}
+// This map is tall (portrait). In the PDF, float it within its column (rather than
+// the full-width parent float used for landscape figures) so body text flows around
+// it. A plain in-column block would jump to the next column when it didn't fit,
+// leaving a white gap at the foot of the column.
+#place(top, float: true, clearance: 0.8em, block[
+  #align(center)[#image("figures/decc-network-expansion-fig1.png", width: 100%)]
+  #v(0.15em)
+  #text(size: 0.82em, fill: rgb("#26557a"))[*Figure 1:* Map of the UK and Ireland DECC network showing monitoring sites and the new GEMMA instrumentation at Jodrell Bank and Invergowrie.]
+])
+```
 
 ## What was installed
 
@@ -87,7 +113,7 @@ unifying data evaluation processes across sites.
 This harmonisation improves comparability between stations, supports more consistent
 quality control, and makes network-wide interpretation more robust for policy use.
 
-## Scientific and policy impact
+## What this means for policy
 
 The network expansion is designed to deliver two major outcomes.
 

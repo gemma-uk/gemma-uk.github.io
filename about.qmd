@@ -5,7 +5,7 @@ title: "About GEMMA"
 ## Background
 
 The GEMMA project (Greenhouse gas Measurement and Modelling Advancement) was
-established to address a fundamental challenge in climate science and government policy: how can we ensure that national greenhouse gas emissions emissions estimates are accurate, timely, and credible?
+established to address a fundamental challenge in climate science and government policy: how can we ensure that national greenhouse gas emissions estimates are accurate, timely, and credible?
 
 GEMMA develops the science and tools needed to
 independently evaluate emissions inventories using atmospheric observations and
@@ -74,11 +74,22 @@ underpin GEMMA's measurement and modelling activities.
 **National Centre for Earth Observation (NCEO)**
 Earth observation science and data analysis. NCEO contributes ground-based remote sensing and satellite retrieval expertise to complement GEMMA's ground-based network.
 
+**University of Edinburgh**
+Inverse modelling and remote sensing of greenhouse gases. Edinburgh contributes
+expertise in atmospheric inverse modelling alongside remote-sensing methods for
+detecting and quantifying greenhouse gas emissions.
+
+**University of Leicester**
+Ground-based and satellite remote sensing. Leicester contributes remote-sensing
+expertise spanning both ground-based instrumentation and satellite observations of
+greenhouse gases.
+
 ## Funding
 
 GEMMA is funded by [UKRI](https://www.ukri.org) through the Building a Green Future programme. The project runs from 2024 to 2027.
 
 ## Contact
 
+<!-- TODO (needs input from Matt): confirm contact name and add an email address. -->
 For general enquiries about the project, please contact
-GEMMA Charlotte Massey at NPL.
+Charlotte Massey at NPL.
