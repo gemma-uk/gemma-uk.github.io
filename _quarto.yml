@@ -30,6 +30,9 @@ website:
         href: news/index.qmd
       - text: "Team"
         href: team.qmd
+      - text: GEMMA Console
+        href: https://gemmaconsole.openghg.org/
+
     right:
       - icon: github
         href: https://github.com/gemma-uk/gemma-website
