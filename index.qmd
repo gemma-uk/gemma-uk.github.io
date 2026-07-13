@@ -76,9 +76,13 @@ listing:
 </div>
 ```
 
+<!-- Home page sections: the classes on each `##` heading land on the wrapping
+     <section>, which is styled as a full band (padding + optional tint) with the
+     title INSIDE it — see `section.section-header` in custom.scss. No inner
+     wrapper divs needed. -->
+
 ## About the project {.section-header}
 
-::: {.section-block}
 The GEMMA project (Greenhouse gas Measurement and Modelling Advancement) is a
 UK research collaboration bringing together expertise in atmospheric measurement,
 inverse modelling, and climate science. Our goal is to improve the accuracy and
@@ -89,25 +93,21 @@ We develop novel measurement techniques, deploy cutting-edge observation network
 and combine these with state-of-the-art atmospheric models to independently verify
 reported emissions across the UK and beyond.
 
-::: {style="text-align: center; margin-top: 1.5rem;"}
+::: {style="text-align: center; margin-top: 1.75rem;"}
 [Read more about GEMMA](about.qmd){.btn .btn-primary}
 :::
-:::
 
-## Recent research highlights {.section-header}
+## Recent research highlights {.section-header .section-tinted}
 
-::: {.section-block .section-tinted}
 ::: {#recent-highlights}
 :::
 
-::: {style="text-align: center; margin-top: 1.5rem;"}
+::: {style="text-align: center; margin-top: 1.75rem;"}
 [View all research highlights](research-highlights/index.qmd){.btn .btn-primary}
-:::
 :::
 
 ## Our partners {.section-header}
 
-::: {.section-block}
 ::: {.partner-logos}
 <!-- Each partner links to its homepage. Once a logo file lands in assets/logos/,
      swap the placeholder <span> for an <img> (see University of Bristol below).
@@ -123,5 +123,4 @@ reported emissions across the UK and beyond.
 <a class="partner-logo" href="https://www.nceo.ac.uk" target="_blank" rel="noopener" aria-label="National Centre for Earth Observation"><img src="assets/logos/nceo.png" alt="National Centre for Earth Observation"></a>
 <a class="partner-logo" href="https://www.ed.ac.uk" target="_blank" rel="noopener" aria-label="University of Edinburgh"><img src="assets/logos/university-of-edinburgh.jpeg" alt="University of Edinburgh"></a>
 <a class="partner-logo" href="https://le.ac.uk" target="_blank" rel="noopener" aria-label="University of Leicester"><img src="assets/logos/university-of-leicester.png" alt="University of Leicester"></a>
-:::
 :::

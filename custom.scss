@@ -250,44 +250,35 @@ figure.feature-image-wrap {
   }
 }
 
-// ── Section blocks ────────────────────────────────────────────────────────────
+// ── Home page section bands ───────────────────────────────────────────────────
+//
+// `## Title {.section-header}` (optionally `.section-tinted`) makes Quarto stamp
+// the classes on the wrapping <section> AND its <h2>. We style the <section> as a
+// full band with the title inside it: uniform padding provides all vertical rhythm,
+// so no heading top-margins are needed — which also sidesteps Quarto's built-in
+// `section:first-of-type h2 { margin-top: … }` overrides that defeat margin-based
+// spacing on the page's first section. Rules are scoped with the element selector
+// (`section.…`) so the copies of these classes on the <h2> pick nothing up.
 
-.section-block {
-  // Little top padding — the section title sits directly above, so a big gap here
-  // just strands the title. Keep generous bottom padding for section separation.
-  padding: 1.5rem 1rem 2.75rem;
+section.section-header {
+  padding: 2.75rem 1rem 3rem;
+  margin: 0;
 
-  &.section-tinted {
-    background: $light;
-    border-top: 1px solid #dee2e6;
-    border-bottom: 1px solid #dee2e6;
-    padding-top: 2.5rem;
+  > h2,
+  > .h2 {
+    text-align: center;
+    color: $primary;
+    margin: 0 0 1.75rem !important; // beat Quarto's #quarto-content first-heading rule
+    padding-bottom: 0;
+    border-bottom: none; // drop Quarto's default full-width h2 underline here
   }
 }
 
-// NB: Quarto stamps this class on BOTH the wrapping <section> and its <h2>. The base
-// rule therefore lands on both; we use it only to zero the container margin and drive
-// all spacing from the heading (margin-top) plus the section-block padding below.
-.section-header {
-  margin-bottom: 0;
-
-  &>h2,
-  &>.h2 {
-    text-align: center;
-    color: $primary;
-    margin-top: 2.75rem;   // breathing room above the title
-    margin-bottom: 0;      // content spacing comes from section-block padding-top
-    padding-bottom: 0;
-    border-bottom: none;   // drop Quarto's default full-width h2 underline here
-  }
-
-  .section-rule {
-    width: 50px;
-    border: none;
-    border-top: 3px solid $primary;
-    margin: 0.6rem auto 0;
-    opacity: 1;
-  }
+// Tinted band: grey box spans the whole section, title included.
+section.section-tinted {
+  background: $light;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
 }
 
 // ── Research highlight listing cards ──────────────────────────────────────────
@@ -356,7 +347,14 @@ figure.feature-image-wrap {
   align-items: center;
   justify-content: center;
   gap: 2rem 3.5rem;
-  padding: 0.5rem 0 1.5rem;
+  padding: 0;
+
+  // Pandoc wraps the run of inline <a> logos in a single <p>, which would become
+  // the sole flex item (logos then left-align as inline text). Dissolve it so the
+  // anchors themselves are the flex items and centring/gap work per logo.
+  > p {
+    display: contents;
+  }
 
   a.partner-logo {
     display: inline-flex;
