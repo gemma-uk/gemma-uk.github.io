@@ -114,11 +114,11 @@ reported emissions across the UK and beyond.
      NB: keep each <a>...</a> on a single line — splitting it across lines makes
      Pandoc parse it as an HTML block (its own paragraph) instead of inline content,
      which breaks the flex row into a stacked column. -->
-<a class="partner-logo" href="https://www.npl.co.uk" target="_blank" rel="noopener" aria-label="National Physical Laboratory"><span class="partner-logo-placeholder">National Physical Laboratory</span></a>
+<a class="partner-logo" href="https://www.npl.co.uk" target="_blank" rel="noopener" aria-label="National Physical Laboratory"><img src="assets/logos/npl.jpg" alt="National Physical Laboratory"></a>
 <a class="partner-logo" href="https://www.bristol.ac.uk" target="_blank" rel="noopener" aria-label="University of Bristol"><img src="assets/logos/university-of-bristol.svg" alt="University of Bristol"></a>
 <a class="partner-logo" href="https://www.metoffice.gov.uk" target="_blank" rel="noopener" aria-label="Met Office"><img src="assets/logos/met-office.png" alt="Met Office"></a>
 <a class="partner-logo" href="https://www.uea.ac.uk" target="_blank" rel="noopener" aria-label="University of East Anglia"><img src="assets/logos/uea.png" alt="University of East Anglia"></a>
-<a class="partner-logo" href="https://www.manchester.ac.uk" target="_blank" rel="noopener" aria-label="University of Manchester"><span class="partner-logo-placeholder">University of Manchester</span></a>
+<a class="partner-logo" href="https://www.manchester.ac.uk" target="_blank" rel="noopener" aria-label="University of Manchester"><img src="assets/logos/university-of-manchester.gif" alt="University of Manchester"></a>
 <a class="partner-logo" href="https://ncas.ac.uk" target="_blank" rel="noopener" aria-label="National Centre for Atmospheric Science"><img src="assets/logos/ncas.png" alt="National Centre for Atmospheric Science"></a>
 <a class="partner-logo" href="https://www.nceo.ac.uk" target="_blank" rel="noopener" aria-label="National Centre for Earth Observation"><img src="assets/logos/nceo.png" alt="National Centre for Earth Observation"></a>
 <a class="partner-logo" href="https://www.ed.ac.uk" target="_blank" rel="noopener" aria-label="University of Edinburgh"><img src="assets/logos/university-of-edinburgh.jpeg" alt="University of Edinburgh"></a>
