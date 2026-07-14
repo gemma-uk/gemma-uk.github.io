@@ -1,5 +1,5 @@
 ---
-title: "Sector-level methane emission estimates using secondary tracer observations"
+title: "Fingerprinting UK methane: can we tell fossil-fuel emissions from farms and landfill?"
 date: 2026-06-24
 author:
   - name: "Alice Ramsden"
@@ -14,25 +14,27 @@ categories:
   - emissions by sector
 image: /research-highlights/figures/methane-sector-tracers-fig1.png
 description: >
-  GEMMA has tested whether adding methane isotope ratios and ethane observations
-  to the InTEM inverse modelling system can separate fossil-fuel from non-fossil-fuel
-  methane emissions. Whilst synthetic data tests showed the approach is theoretically
-  viable, current knowledge of isotopic source signatures across the UK is not yet
-  precise enough to improve on standard methane-only inversions.
+  Methane from a gas leak carries a different chemical fingerprint from methane
+  produced by cattle or landfill. GEMMA tested whether these fingerprints —
+  methane isotope ratios and co-emitted ethane — can split the UK's methane
+  emissions into fossil and non-fossil sources. The approach works in principle,
+  but knowledge of source signatures across the UK is not yet precise enough,
+  and GEMMA is now building the observations needed to change that.
 ---
 
 ::: {.key-points}
 **Key points**
 
-- GEMMA tested whether methane isotope (δ¹³C-CH₄) and ethane observations can
-  **separate fossil-fuel from non-fossil-fuel methane** in the InTEM inverse system —
-  an attribution independent of inventory assumptions.
-- In **synthetic tests** the approach worked, improving on a methane-only inversion;
-  but with realistic uncertainty on source signatures, and with **real observations**,
-  it did not yet improve on the standard method.
-- The limiting factor is the **precision of source-signature knowledge** across the UK;
-  this highlight sets out the observational and modelling steps needed before the
-  method can inform policy.
+- Methane from **fossil sources** (gas leaks, oil, and coal) carries a different
+  **chemical fingerprint** — in its isotopes and co-emitted ethane — from methane
+  produced by agriculture and waste, offering a route to tracking each source
+  independently of inventory assumptions.
+- GEMMA tested the approach in the InTEM inverse system: it **works in principle**,
+  but with today's knowledge of UK source signatures it does not yet improve on
+  standard methane-only estimates.
+- The analysis pinpoints the limiting factor — the **precision of source-signature
+  knowledge** — and sets out the observations needed to make the method work:
+  capability that GEMMA is now building.
 :::
 
 ::: {.content-visible when-format="html"}

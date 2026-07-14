@@ -1,5 +1,5 @@
 ---
-title: "Expanding the UK DECC network: new GEMMA instrumentation at Jodrell Bank and Invergowrie"
+title: "Two new stations extend the UK's independent greenhouse gas monitoring network"
 date: 2026-05-22
 author:
   - name: "Joe Pitt"
@@ -17,10 +17,11 @@ categories:
   - measurement network
 image: /research-highlights/figures/decc-network-expansion-fig1.png
 description: >
-  GEMMA has expanded the UK DECC atmospheric monitoring network with two new sites:
-  a Picarro CO2/CH4 analyser at Jodrell Bank and a Medusa GCMS system at Invergowrie.
-  The expansion strengthens devolved-administration emissions estimates and
-  substantially improves constraints on UK halocarbon emissions.
+  GEMMA has expanded the UK's independent atmospheric monitoring capability with
+  new instruments at two sites: Jodrell Bank in Cheshire and Invergowrie in
+  Scotland. The expansion strengthens emissions estimates for the devolved
+  administrations — and makes the UK and Ireland the most intensively monitored
+  countries in the world for halocarbons.
 ---
 
 ::: {.key-points}
