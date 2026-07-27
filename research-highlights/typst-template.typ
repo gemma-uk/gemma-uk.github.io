@@ -19,9 +19,14 @@
   } else if content.has("text") {
     content.text
   } else if content.has("children") {
-    content.children.map(content-to-string).join("")
+    if content.children.len() == 0 { "" } else { content.children.map(content-to-string).join("") }
   } else if content.has("body") {
     content-to-string(content.body)
+  } else if content == [ ] {
+    // A space is its own content element with no text/children/body. Without this
+    // branch it stringifies to "", swallowing spaces around markup such as the
+    // "&" in "UK Centre for Ecology & Hydrology".
+    " "
   } else {
     ""
   }
@@ -147,10 +152,30 @@
             if s != "" and not affs.contains(s) { affs.push(s) }
           }
 
+          // Contact emails. Quarto always includes an "email" key once any author
+          // has one, using empty content for authors that don't — so trim after
+          // stringifying. Appended to the names/date line rather than given its own
+          // block: that line usually has slack at the end, so the contact costs no
+          // extra line on a page budgeted to one side of A4.
+          let contacts = ()
+          for a in authors {
+            let e = if "email" in a { content-to-string(a.email).trim() } else { "" }
+            if e != "" { contacts.push((content-to-string(a.name), e)) }
+          }
+          let contact-tail = if contacts.len() == 0 {
+            []
+          } else if contacts.len() == 1 {
+            // Sole contact is already named in the author list — the address alone
+            // is unambiguous.
+            [ · Contact: #link("mailto:" + contacts.at(0).at(1))[#contacts.at(0).at(1)]]
+          } else {
+            [ · Contact: #contacts.map(c => [#c.at(0) (#link("mailto:" + c.at(1))[#c.at(1)])]).join(", ", last: " & ")]
+          }
+
           if affs.len() <= 1 {
             // One shared affiliation (or none): spell it out inline.
             let names = authors.map(a => [#a.name]).join(", ", last: " & ")
-            [#names#if affs.len() == 1 [ (#emph(affs.at(0)))]#if date != none [ · #date]]
+            [#names#if affs.len() == 1 [ (#emph(affs.at(0)))]#if date != none [ · #date]#contact-tail]
           } else {
             // Several affiliations: superscript markers keep long author lists to a
             // couple of lines instead of repeating institution names per author.
@@ -159,8 +184,8 @@
               let i = affs.position(x => x == s)
               if i == none { [#a.name] } else { [#a.name#super(str(i + 1))] }
             }).join(", ", last: " & ")
-            [#names#if date != none [ · #date]]
-            v(0.2em)
+            [#names#if date != none [ · #date]#contact-tail]
+            v(0.12em)
             text(size: 0.82em, style: "italic")[
               #affs.enumerate().map(pair => [#super(str(pair.at(0) + 1))#pair.at(1)]).join("  ")
             ]

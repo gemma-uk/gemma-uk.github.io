@@ -4,6 +4,7 @@ date: 2026-06-24
 author:
   - name: "Alice Ramsden"
     affiliation: "Met Office"
+    email: "alice.ramsden@metoffice.gov.uk"
   - name: "Anita Ganesan"
     affiliation: "University of Bristol"
   - name: "Chris Rennick"

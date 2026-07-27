@@ -4,10 +4,12 @@ date: 2026-07-27
 author:
   - name: "Alice Ramsden"
     affiliation: "Met Office"
+    email: "alice.ramsden@metoffice.gov.uk"
   - name: "Alistair Manning"
     affiliation: "Met Office"
   - name: "Joe Pitt"
     affiliation: "University of Bristol"
+    email: "joseph.pitt@bristol.ac.uk"
 categories:
   - hydrogen
   - measurement network

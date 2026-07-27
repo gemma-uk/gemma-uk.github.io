@@ -4,6 +4,7 @@ date: 2026-07-14
 author:
   - name: "Neil Humpage"
     affiliation: "NCEO, University of Leicester"
+    email: "nh58@leicester.ac.uk"
   - name: "Paul Palmer"
     affiliation: "NCEO, University of Edinburgh"
 categories:
