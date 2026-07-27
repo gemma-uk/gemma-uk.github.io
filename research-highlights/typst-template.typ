@@ -91,10 +91,12 @@
   // Compact bullet lists.
   set list(spacing: 0.62em, indent: 0.4em)
 
-  // Figures span both columns and float to a free slot, centred. Wide landscape
-  // plots fill the width; tall portrait figures should be given a reduced width
-  // via a `when-format="typst"` variant in the .qmd (see decc-network-expansion).
-  show figure: it => place(auto, float: true, scope: "parent", clearance: 1em, align(center, it))
+  // Figures span both columns and float to a free slot, centred. Capped at 90%
+  // width: full-bleed plots look heavy, and the height saved frees space in BOTH
+  // columns. Tall portrait figures should instead be given an in-column
+  // `when-format="typst"` variant in the .qmd (see decc-network-expansion).
+  show figure: it => place(auto, float: true, scope: "parent", clearance: 1em,
+    align(center, block(width: 90%, it)))
   show figure.caption: set text(size: 0.82em, fill: gemma-dark.lighten(15%))
 
   // Branded footer on every page.
@@ -137,15 +139,32 @@
 
         #if authors != none and authors != () {
           set text(size: 0.9em, fill: gemma-dark)
-          let author-list = authors.map(author => {
-            let aff = content-to-string(author.affiliation).trim()
-            if aff != "" {
-              [#author.name (#emph(author.affiliation))]
-            } else {
-              [#author.name]
-            }
-          }).join(", ", last: " & ")
-          [#author-list#if date != none [ · #date]]
+
+          // Unique affiliations, in order of first appearance.
+          let affs = ()
+          for a in authors {
+            let s = content-to-string(a.affiliation).trim()
+            if s != "" and not affs.contains(s) { affs.push(s) }
+          }
+
+          if affs.len() <= 1 {
+            // One shared affiliation (or none): spell it out inline.
+            let names = authors.map(a => [#a.name]).join(", ", last: " & ")
+            [#names#if affs.len() == 1 [ (#emph(affs.at(0)))]#if date != none [ · #date]]
+          } else {
+            // Several affiliations: superscript markers keep long author lists to a
+            // couple of lines instead of repeating institution names per author.
+            let names = authors.map(a => {
+              let s = content-to-string(a.affiliation).trim()
+              let i = affs.position(x => x == s)
+              if i == none { [#a.name] } else { [#a.name#super(str(i + 1))] }
+            }).join(", ", last: " & ")
+            [#names#if date != none [ · #date]]
+            v(0.2em)
+            text(size: 0.82em, style: "italic")[
+              #affs.enumerate().map(pair => [#super(str(pair.at(0) + 1))#pair.at(1)]).join("  ")
+            ]
+          }
         } else if date != none {
           text(size: 0.9em, fill: gemma-dark)[#date]
         }

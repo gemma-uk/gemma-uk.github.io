@@ -44,7 +44,7 @@ format:
     - date: YYYY-MM-DD (displayed as "D MMMM YYYY" site-wide)
     - image: the figure used on listing cards
     - categories: use the controlled vocabulary only —
-        gas:   methane · carbon dioxide · nitrous oxide · halocarbons
+        gas:   methane · carbon dioxide · nitrous oxide · halocarbons · hydrogen
         theme: measurement network · inverse modelling · emissions by sector
     - Wrap the .pdf-download-bar and .highlight-meta blocks in
       ::: {.content-visible when-format="html"} so they stay out of the PDF.

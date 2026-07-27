@@ -6,8 +6,12 @@ author:
     affiliation: "Met Office"
   - name: "Alison Redington"
     affiliation: "Met Office"
+  - name: "Peter Andrews"
+    affiliation: "Met Office"
   - name: "Alistair Manning"
     affiliation: "Met Office"
+  - name: "Pete Levy"
+    affiliation: "UK Centre for Ecology & Hydrology"
 categories:
   - methane
   - inverse modelling

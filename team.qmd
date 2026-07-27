@@ -32,6 +32,26 @@ Research interests: atmospheric measurement, metrology, climate science.
 :::
 :::
 
+::: {.team-entry}
+::: {.team-photo}
+<!-- Square head-and-shoulders crop of paul-palmer.png (the original is kept
+     alongside). The avatar frame is square, so a portrait source is only ever
+     cropped vertically by CSS — off-centre framing has to be fixed in the file. -->
+![](assets/photos/paul-palmer-headshot.png){fig-alt="Prof Paul Palmer"}
+:::
+::: {.team-bio}
+**Prof Paul Palmer** · NCEO, University of Edinburgh
+
+Co-lead on inverse modelling and science lead on development of the GEMINI-UK
+Fourier Transform Spectrometer network.
+Research interests: atmospheric physics and chemistry modelling, atmospheric
+measurements, metrology, climate science.
+
+<!-- TODO (needs input from Matt): add Paul's email address and ORCID to match the
+     other entries. -->
+:::
+:::
+
 ---
 
 ## Researchers and postdoctoral fellows
