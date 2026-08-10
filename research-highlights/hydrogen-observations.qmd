@@ -73,7 +73,7 @@ and **Jodrell Bank (since 2025)**, and has begun testing an inverse modelling
 system to convert hydrogen observations into emission estimates.
 
 ::: {.content-visible when-format="html"}
-![Hydrogen mole fractions (top) and measurement precisions (bottom) at Mace Head and Jodrell Bank. The newer Jodrell Bank analyser achieves roughly 1 ppb precision against 2–3 ppb at Mace Head, and records frequent pollution events from nearby sources.](/research-highlights/figures/h2-fig1.png){fig-alt="Two-panel time series from March 2025 to July 2026. Top panel: hydrogen mole fractions at Mace Head (green, steady near 500 ppb) and Jodrell Bank (blue, with frequent spikes above 1000 ppb). Bottom panel: measurement precision, around 2-3 ppb at Mace Head and around 1 ppb at Jodrell Bank."}
+![Top: High-frequency GEMMA/AGAGE/DECC network atmospheric hydrogen observations from Mace Head, Ireland (green) and Jodrell Bank (blue). Bottom: An air history map showing the origin of air sampled in early April 2026 when substantially enhanced H$_2$ was observed (blue cross in top panel).](/research-highlights/figures/h2-fig1.png){fig-alt="Two-panel figure. Top panel: hydrogen mole fraction time series from March 2025 to July 2026 at Mace Head (green, steady near 500 ppb) and Jodrell Bank (blue, with frequent spikes and one large peak above 1200 ppb marked with a cross in early April 2026). Bottom panel: an air history map showing elevated sensitivity stretching from Jodrell Bank across north-west England and the Irish Sea for the marked sampling period."}
 :::
 
 ```{=typst}
@@ -82,7 +82,7 @@ system to convert hydrogen observations into emission estimates.
 #place(top, float: true, clearance: 0.8em, block[
   #align(center)[#image("figures/h2-fig1.png", width: 100%)]
   #v(0.15em)
-  #text(size: 0.82em, fill: rgb("#26557a"))[*Figure 1:* Hydrogen mole fractions (top) and measurement precisions (bottom) at Mace Head and Jodrell Bank.]
+  #text(size: 0.82em, fill: rgb("#26557a"))[*Figure 1:* Top: High-frequency GEMMA/AGAGE/DECC network atmospheric hydrogen observations from Mace Head, Ireland (green) and Jodrell Bank (blue). Bottom: An air history map showing the origin of air sampled in early April 2026 when substantially enhanced H2 was observed (blue cross in top panel).]
 ])
 ```
 
@@ -91,6 +91,11 @@ system to convert hydrogen observations into emission estimates.
 - The new Jodrell Bank analyser reaches typical precision of about **1 ppb**,
   compared with **2–3 ppb** at Mace Head — and records **large pollution events**
   absent from the cleaner Mace Head record.
+- The Jodrell Bank observations have revealed periods of markedly **elevated
+  hydrogen concentrations**. Air history maps
+  show these events are likely to occur when sampled air has passed over
+  **industrialised regions in north-west England**, pointing to nearby sources
+  that the network is now well placed to detect.
 - Initial tests of the hydrogen inversion system show it is essential to account
   for hydrogen's **soil sink** — hydrogen is absorbed by soils as well as emitted —
   alongside its atmospheric sources.
