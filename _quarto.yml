@@ -44,13 +44,13 @@ website:
 
     right:
       - icon: github
-        href: https://github.com/gemma-uk/gemma-website
+        href: https://github.com/gemma-uk/gemma-uk.github.io
         aria-label: "GitHub repository"
 
   page-footer:
     left: "© 2025–2026 GEMMA project"
     center: "Funded by UKRI"
-    right: "Source code: [GitHub](https://github.com/gemma-uk/gemma-website) · Built with [Quarto](https://quarto.org)"
+    right: "Source code: [GitHub](https://github.com/gemma-uk/gemma-uk.github.io) · Built with [Quarto](https://quarto.org)"
     background: dark
 
   search:

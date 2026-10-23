@@ -45,8 +45,8 @@ runtime installed.
 ### Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-ORG/gemma-website.git
-cd gemma-website
+git clone https://github.com/gemma-uk/gemma-uk.github.io.git
+cd gemma-uk.github.io
 ```
 
 ### Start a live preview
@@ -86,7 +86,7 @@ Open `_site/research-highlights/decc-network-expansion.html` in your browser to 
 ## Project structure
 
 ```
-gemma-website/
+gemma-uk.github.io/
 │
 ├── _quarto.yml                    Site-wide configuration (navigation, theme, etc.)
 ├── custom.scss                    Custom CSS/SCSS overrides
@@ -233,7 +233,7 @@ These steps only need to be done once per repository.
 
 1. **Push the repository to GitHub** (if not done already):
    ```bash
-   git remote add origin https://github.com/YOUR-ORG/gemma-website.git
+   git remote add origin https://github.com/gemma-uk/gemma-uk.github.io.git
    git branch -M main
    git push -u origin main
    ```
@@ -243,12 +243,12 @@ These steps only need to be done once per repository.
    - Under *Build and deployment*, set the source to **GitHub Actions**.
 
 3. **Check the Actions tab** after pushing. The workflow
-   `.github/workflows/publish.yml` will run automatically. On first run it
-   creates a `gh-pages` branch containing the rendered site.
+   `.github/workflows/publish.yml` will run automatically, render the site and
+   deploy it directly to GitHub Pages (no `gh-pages` branch is created).
 
 4. Once the workflow completes, your site will be live at:
    ```
-   https://YOUR-ORG.github.io/gemma-website/
+   https://gemma-uk.github.io/
    ```
    (or a custom domain if configured — see GitHub Pages documentation).
 
@@ -258,7 +258,7 @@ Every push to the `main` branch triggers the workflow automatically.
 The typical time from push to live site is 2–4 minutes.
 
 You can also trigger a deployment manually from
-**Actions → Render and publish to GitHub Pages → Run workflow**.
+**Actions → Publish to GitHub Pages → Run workflow**.
 
 ### Setting a custom domain
 
