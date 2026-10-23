@@ -1,0 +1,114 @@
+---
+title: "A new tall tower brings Scotland's greenhouse gas emissions into focus"
+date: 2026-10-23
+author:
+  - name: "Alison Redington"
+    affiliation: "Met Office"
+categories:
+  - methane
+  - nitrous oxide
+  - halocarbons
+  - measurement network
+  - inverse modelling
+image: /research-highlights/figures/invergowrie-fig2.png
+description: >
+  A 100-metre tower near Invergowrie, built specifically for atmospheric science,
+  now measures greenhouse gases in air arriving from across Scotland. GEMMA funded
+  instruments at the tower and has begun using its data: early results already
+  show methane emissions around Edinburgh and Glasgow that the UK monitoring
+  network could not previously resolve.
+---
+
+::: {.key-points}
+**Key points**
+
+- The **Scottish Observatory for Atmospheric Research (SOAR)**, near Invergowrie
+  west of Dundee, is a 100-metre tower built for atmospheric science, the first of
+  its kind in the UK. The rest of the UK network uses existing telecommunications
+  towers.
+- GEMMA funded the deployment of instruments at the tower, including one that
+  measures more than 40 halogenated greenhouse gases.
+- With the first months of Invergowrie data, the Met Office's emissions model can
+  map Scotland's methane and nitrous oxide emissions in far more detail than the
+  two or three coarse regions possible before, with **population centres around
+  Edinburgh and Glasgow now visible**.
+- This gives the Scottish Government a growing, independent check on Scotland's
+  own emissions figures.
+:::
+
+::: {.content-visible when-format="html"}
+::: {.pdf-download-bar}
+**Download this page as a PDF policy brief:**
+[Download PDF](invergowrie-scotland.pdf){.btn .btn-sm .btn-primary}
+:::
+:::
+
+::: {.highlight-meta}
+**About the tower:** [Hutton and the University of Edinburgh unveil SOAR tall tower (James Hutton Institute, August 2026)](https://www.hutton.ac.uk/hutton-and-the-university-of-edinburgh-unveil-soar-tall-tower/)
+:::
+
+<!-- TODO: Figure 1, a photograph of the SOAR tower or its construction, once
+     permission to reuse an image has been confirmed (e.g. from the James Hutton
+     Institute or University of Edinburgh). Save as figures/invergowrie-fig1.png. -->
+
+## Why this matters
+
+Scotland has a legal target to reach net zero by 2045, tracked through five-year
+carbon budgets. Progress is measured using Scotland's share of the UK greenhouse
+gas inventory, which is calculated from statistics such as livestock numbers, fuel
+use and landfill records. Measuring the gases in the atmosphere gives an
+independent check on those figures.
+
+The UK Deriving Emissions linked to Climate Change (DECC) network does this for the
+UK as a whole, but most of its stations are in England or at Mace Head on the
+west coast of Ireland.
+Air reaching them from Scotland has usually travelled a long way and mixed
+with emissions from elsewhere, so the network could only estimate Scotland's
+emissions across a few large regions.
+
+## What GEMMA did
+
+SOAR stands on the James Hutton Institute's Balruddery research farm near
+Invergowrie. It is jointly owned by the James Hutton Institute and the University
+of Edinburgh, and samples air at 50 and 100 metres. Because the prevailing winds
+are westerly, the air it samples has crossed much of Scotland, including the
+central belt.
+
+GEMMA funded the deployment of some of the new SOAR instruments, principally a **Medusa** gas chromatograph-mass
+spectrometer that measures more than 40 halogenated gases, such as the
+hydrofluorocarbons used in refrigeration and air conditioning. Measurements of
+methane (CH₄) and nitrous oxide (N₂O) at the site began in May 2025.
+
+The Met Office then ran its Inversion Technique for Emissions Modelling (InTEM)
+for 2024 and 2025, with and without the Invergowrie data. InTEM works backwards
+from measured concentrations and weather patterns to estimate where gases were
+emitted.
+
+## What we found
+
+![Estimated methane emissions across Scotland in 2025. Left: before the Invergowrie site was established, methane emissions for Scotland could only be estimated across two or three coarse regions. Right: with the Invergowrie data, emissions from population centres around Edinburgh and Glasgow are now "visible" from the atmospheric measurements. Triangles mark measurement sites.](/research-highlights/figures/invergowrie-fig2.png){fig-alt="Two maps of Scotland coloured by estimated methane emissions in kilograms per square kilometre per year. The left map shows broad, uniform blocks across central and southern Scotland. The right map, which uses Invergowrie data, shows a smaller grid with markedly higher emissions concentrated in the central belt between Edinburgh and Glasgow. A triangle marks the Invergowrie site on the Firth of Tay."}
+
+- With Invergowrie data included, the model maps Scotland's methane and nitrous
+  oxide emissions in **much finer detail**. Higher methane emissions in the central
+  belt, previously spread across large regions, now stand out.
+- The uncertainty in monthly emissions estimates for both gases fell once
+  Invergowrie data were added.
+- These results use only seven and a half months of measurements. Estimates will
+  improve as the record grows.
+
+## What this means for policy
+
+The UK's atmospheric monitoring network can now look at
+emissions within Scotland in much finer detail. As the
+record builds, this will give the Scottish Government independent evidence on
+whether reported emissions, and the trends in them, match what the atmosphere
+shows. This applies to methane and nitrous oxide now, and to halogenated gases
+once the Medusa data have been analysed.
+
+## What comes next
+
+- Continue measurements at Invergowrie, so that additional years of data give
+  better-constrained estimates of Scotland's emissions.
+- Include hydrogen measurements from Invergowrie in GEMMA's hydrogen analysis,
+  extending it into Scotland.
+- Use the Medusa observations to estimate Scotland's emissions of halogenated gases.
