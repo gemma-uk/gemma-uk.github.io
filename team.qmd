@@ -14,7 +14,7 @@ title: "Team"
 Lead on measurement traceability.
 Research interests: atmospheric measurement, metrology, climate science.
 
-[tg@npl.co.uk](mailto:tg@npl.co.uk) | [ORCID](https://orcid.org/0000-0000-0000-0000)
+[tg@npl.co.uk](mailto:tg@npl.co.uk) | [ORCID](https://orcid.org/0000-0003-4320-396X)
 :::
 :::
 
@@ -26,9 +26,9 @@ Research interests: atmospheric measurement, metrology, climate science.
 **Prof Matt Rigby** · University of Bristol
 
 Co-lead on inverse modelling.
-Research interests: atmospheric measurement, metrology, climate science.
+Research interests: inverse modelling, atmospheric chemistry, climate science.
 
-[matt.rigby@bristol.ac.uk](mailto:matt.rigby@bristol.ac.uk) | [ORCID](https://orcid.org/0000-0000-0000-0000)
+[matt.rigby@bristol.ac.uk](mailto:matt.rigby@bristol.ac.uk) | [ORCID](https://orcid.org/0000-0002-2020-9253)
 :::
 :::
 
@@ -47,8 +47,68 @@ Fourier Transform Spectrometer network.
 Research interests: atmospheric physics and chemistry modelling, atmospheric
 measurements, metrology, climate science.
 
-<!-- TODO (needs input from Matt): add Paul's email address and ORCID to match the
-     other entries. -->
+[paul.palmer@ed.ac.uk](mailto:paul.palmer@ed.ac.uk) | [ORCID](https://orcid.org/0000-0002-1487-0969)
+:::
+:::
+
+::: {.team-entry}
+::: {.team-photo}
+![](assets/photos/alistair-manning.jpg){fig-alt="Prof Alistair Manning"}
+:::
+::: {.team-bio}
+**Prof Alistair Manning** · Met Office
+
+Co-lead on inverse modelling.
+Research interests: national greenhouse gas emissions evaluation, inventory
+engagement.
+
+[alistair.manning@metoffice.gov.uk](mailto:alistair.manning@metoffice.gov.uk) | [ORCID](https://orcid.org/0000-0002-1431-7514)
+:::
+:::
+
+::: {.team-entry}
+::: {.team-photo}
+![](assets/photos/rob-parker.jpg){fig-alt="Dr Rob Parker"}
+:::
+::: {.team-bio}
+**Dr Rob Parker** · NCEO, University of Leicester
+
+Co-lead on integration of space-based remote sensing greenhouse gas capability.
+Research interests: satellite greenhouse gas observations, methane, Earth system
+model evaluation, environmental digital twins.
+
+[rjp23@le.ac.uk](mailto:rjp23@le.ac.uk) | [ORCID](https://orcid.org/0000-0002-0801-0831)
+:::
+:::
+
+::: {.team-entry}
+::: {.team-photo}
+![](assets/photos/kieran-stanley.jpg){fig-alt="Dr Kieran Stanley"}
+:::
+::: {.team-bio}
+**Dr Kieran Stanley** · University of Bristol
+
+Co-lead on ground-based monitoring.
+Research interests: atmospheric measurement, instrumentation for greenhouse gas
+observations, climate science.
+
+[k.m.stanley@bristol.ac.uk](mailto:k.m.stanley@bristol.ac.uk) | [ORCID](https://orcid.org/0000-0003-3388-0932)
+:::
+:::
+
+::: {.team-entry}
+::: {.team-photo}
+![](assets/photos/grant-forster.jpg){fig-alt="Dr Grant Forster"}
+:::
+::: {.team-bio}
+**Dr Grant Forster** · NCAS, University of East Anglia
+
+Atmospheric trace gas measurement scientist. Principal Investigator of the
+Weybourne Atmospheric Observatory, Head of the Natural Environment Research
+Council's Atmospheric Measurement and Observation Facility (AMOF), and UK Focal
+Point for the Integrated Carbon Observation System (ICOS).
+
+[grant.forster@ncas.ac.uk](mailto:grant.forster@ncas.ac.uk) | [ORCID](https://orcid.org/0000-0003-1783-9307)
 :::
 :::
 
@@ -56,7 +116,38 @@ measurements, metrology, climate science.
 
 ## Researchers and postdoctoral fellows
 
-*To be completed.*
+::: {.team-entry}
+::: {.team-photo}
+![](assets/photos/neil-humpage.jpg){fig-alt="Dr Neil Humpage"}
+:::
+::: {.team-bio}
+**Dr Neil Humpage** · NCEO, University of Leicester
+
+Postdoctoral researcher on GEMINI-UK, a UK network of ground-based instruments
+that measure carbon dioxide and methane using sunlight.
+Research interests: ground-based remote sensing of greenhouse gases, satellite
+validation.
+
+[nh58@leicester.ac.uk](mailto:nh58@leicester.ac.uk) | [ORCID](https://orcid.org/0000-0002-1109-2524)
+:::
+:::
+
+::: {.team-entry}
+::: {.team-photo}
+![](assets/photos/lakshmi-n-bharathan.jpg){fig-alt="Dr Lakshmi N Bharathan"}
+:::
+::: {.team-bio}
+**Dr Lakshmi N Bharathan** · NCEO, University of Leicester (2023–2026)
+
+Postdoctoral researcher on integration of space-based remote sensing greenhouse
+gas capability. Now a Ramanujan Fellow at the National Centre for Earth Science
+Studies, India.
+Research interests: satellite remote sensing of greenhouse gases, methane,
+atmospheric aerosols, optimisation methods for satellite data.
+
+[lnb5@leicester.ac.uk](mailto:lnb5@leicester.ac.uk) | [ORCID](https://orcid.org/0000-0001-5541-0961)
+:::
+:::
 
 ## Advisory board
 

@@ -69,8 +69,8 @@ listing:
       <span class="stat-label">Scientists</span>
     </div>
     <div class="stat-item">
-      <span class="stat-number">2</span>
-      <span class="stat-label">Years of research</span>
+      <span class="stat-number">4</span>
+      <span class="stat-label">Years of research (2023–2027)</span>
     </div>
   </div>
 </div>

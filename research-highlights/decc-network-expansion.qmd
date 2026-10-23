@@ -9,7 +9,7 @@ author:
     affiliation: "University of Bristol"
   - name: "Simon O'Doherty"
     affiliation: "University of Bristol"
-  - name: "Grant Foster"
+  - name: "Grant Forster"
     affiliation: "UEA"
 categories:
   - methane

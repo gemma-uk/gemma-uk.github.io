@@ -7,3 +7,6 @@
 
 # Working drafts of research highlights (e.g. Word documents from authors)
 /research-highlights/drafts/
+
+# Team photos awaiting processing (crop/resize before adding to assets/photos)
+/team-drafts/
