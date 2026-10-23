@@ -32,14 +32,14 @@ description: >
 
 - Independent, atmosphere-based estimates show UK methane emissions from
   **agriculture** sitting slightly above the national inventory with no clear trend,
-  while **energy and waste diverge more** — flagging areas that warrant closer
-  scrutiny and targeted measurement.
+  while **energy and waste diverge more**. These differences show where closer
+  scrutiny and targeted measurement are needed.
 - The approach gives policymakers an **independent check** on the UK's sector-level
   methane reporting, though it is currently **limited by the lack of formal
   uncertainty data** from CEH and EDGAR.
 - The estimates come from the **InTEM inverse model**, which works backwards from
-  atmospheric measurements, combined with sectoral maps from CEH and EDGAR —
-  independent of the methods used to compile the official inventory.
+  atmospheric measurements, combined with sectoral maps from CEH and EDGAR. This
+  is independent of the methods used to compile the official inventory.
 :::
 
 ::: {.content-visible when-format="html"}
@@ -56,15 +56,15 @@ description: >
 ## Why this matters
 
 The UK's official greenhouse gas inventory (GHGI) relies on "bottom-up"
-calculations based on activity data and emission factors. Independently verifying
-these figures at sector level — agriculture, energy, and waste — is important for
-policy credibility and for identifying where reported trends may need revision.
+calculations based on activity data and emission factors. Independent checks of
+these figures for agriculture, energy and waste make them more credible and show
+where reported trends may need revising.
 
 GEMMA uses "top-down" atmospheric inverse modelling, which works backwards from
 atmospheric measurements to estimate where and how much methane (CH₄) was emitted.
 By combining these estimates with spatial information about where different sectors
-operate — drawn from the Centre for Ecology & Hydrology (CEH) and the Emissions
-Database for Global Atmospheric Research (EDGAR) — it becomes possible to attribute
+operate, drawn from the Centre for Ecology & Hydrology (CEH) and the Emissions
+Database for Global Atmospheric Research (EDGAR), it becomes possible to attribute
 modelled emissions to individual sectors.
 
 ## What GEMMA did
@@ -91,8 +91,8 @@ Key findings by sector:
 ## What this means for policy
 
 This work provides an independent check on the UK's sector-level methane reporting
-and highlights specific areas — notably energy and waste — where top-down estimates
-diverge from the inventory. These divergences do not necessarily indicate error in
+and shows where top-down estimates diverge from the inventory, especially for energy
+and waste. These divergences do not necessarily indicate error in
 either approach, but they flag areas warranting closer scrutiny and targeted
 measurement.
 

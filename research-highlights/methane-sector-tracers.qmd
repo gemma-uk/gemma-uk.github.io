@@ -30,8 +30,8 @@ categories:
 image: /research-highlights/figures/methane-sector-tracers-fig1.png
 description: >
   Methane from a gas leak carries a different chemical fingerprint from methane
-  produced by cattle or landfill. GEMMA tested whether these fingerprints —
-  methane isotope ratios and co-emitted ethane — can split the UK's methane
+  produced by cattle or landfill. GEMMA tested whether these fingerprints
+  (methane isotope ratios and co-emitted ethane) can split the UK's methane
   emissions into fossil and non-fossil sources. The approach works in principle,
   but knowledge of source signatures across the UK is not yet precise enough,
   and GEMMA is now building the observations needed to change that.
@@ -40,16 +40,16 @@ description: >
 ::: {.key-points}
 **Key points**
 
-- Methane from **fossil sources** (gas leaks, oil, and coal) carries a different
-  **chemical fingerprint** — in its isotopes and co-emitted ethane — from methane
-  produced by agriculture and waste, offering a route to tracking each source
+- Methane from **fossil sources** (gas leaks, oil and coal) carries a different
+  **chemical fingerprint**, in its isotopes and the ethane released with it, from
+  methane produced by agriculture and waste, offering a route to tracking each source
   independently of inventory assumptions.
 - GEMMA tested the approach in the InTEM inverse system: it **works in principle**,
   but with today's knowledge of UK source signatures it does not yet improve on
   standard methane-only estimates.
-- The analysis pinpoints the limiting factor — the **precision of source-signature
-  knowledge** — and sets out the observations needed to make the method work:
-  capability that GEMMA is now building.
+- The analysis identifies the limiting factor, the **precision of source-signature
+  knowledge**, and sets out the observations needed to make the method work.
+  GEMMA is now building that capability.
 :::
 
 ::: {.content-visible when-format="html"}
@@ -65,12 +65,12 @@ description: >
 
 ## Why this matters
 
-Separating fossil-fuel (FF) methane emissions — from gas leaks, oil extraction,
-and coal mines — from non-fossil-fuel (non-FF) sources such as agriculture and
-waste is important for targeting mitigation policy effectively.
+Separating fossil methane emissions (from gas leaks, oil extraction and coal
+mines) from non-fossil sources such as agriculture and waste helps target
+mitigation policy.
 
 Conventional atmospheric inversion methods estimate total methane but cannot
-independently distinguish between FF and non-FF sources. Secondary observations
+tell fossil and non-fossil sources apart. Secondary observations
 carry information about the origin of the gas: methane isotope ratios (δ¹³C-CH₄)
 differ between fossil and biological sources, and ethane is co-emitted with fossil
 methane but not with biological methane. Incorporating these "tracers" into the
@@ -86,14 +86,14 @@ with each emission type.
 
 GEMMA tested whether adding methane isotope observations (δ¹³C-CH₄) to the
 Inverse Technique for Emission Modelling (InTEM) system could improve estimates
-of the FF and non-FF sector split across the UK, using both synthetic and real
+of the fossil and non-fossil split across the UK, using both synthetic and real
 observations.
 
 ## What we found
 
 **Synthetic data tests:** Using artificially generated observations based on
 isotope data from Heathfield (HFD) and Invergowrie (IVG), the method successfully
-estimated FF and non-FF methane emissions across the UK — an improvement over a
+estimated fossil and non-fossil methane emissions across the UK — an improvement over a
 standard methane-only inversion. However, when realistic uncertainties were placed
 on the source signatures, accuracy declined and results became more dependent on
 the assumed prior sector split.
@@ -101,7 +101,7 @@ the assumed prior sector split.
 **Real-world tests:** Using real isotope observations and current knowledge of
 source signatures, results showed no improvement over a standard methane-only
 inversion. This indicates that existing understanding of source signatures across
-the UK is not yet precise enough to constrain FF versus non-FF emissions.
+the UK is not yet precise enough to separate fossil and non-fossil emissions.
 
 ![δ¹³C-CH₄ source signatures for fossil-fuel and non-fossil-fuel methane averaged onto the 25 km NAME model grid.](/research-highlights/figures/methane-sector-tracers-fig1.png){fig-alt="Two-panel map showing delta 13C-CH4 source signatures on the 25km NAME resolution grid: fossil-fuel sector on the left, non-fossil-fuel sector on the right, based on Royal Holloway and isoMET project observations."}
 
@@ -109,12 +109,10 @@ the UK is not yet precise enough to constrain FF versus non-FF emissions.
 
 This work establishes the conditions under which isotope-based sector attribution
 is feasible and identifies the key limiting factor: the precision of source
-signature knowledge. It provides a clear roadmap for the observational and
-modelling work needed before this approach can contribute robustly to
-policy-relevant UK emissions reporting.
+signature knowledge. It sets out the observations and modelling needed before
+this approach can contribute to UK emissions reporting.
 
-As ethane and isotope monitoring expands through the GEMMA programme, the
-conditions for making this method effective are progressively being put in place.
+As ethane and isotope monitoring expands through the GEMMA programme, the conditions for making this method work are being put in place.
 
 ## What comes next
 

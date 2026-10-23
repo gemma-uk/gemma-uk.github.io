@@ -17,7 +17,7 @@ categories:
 image: /research-highlights/figures/h2-fig1.png
 description: >
   Hydrogen is not a direct greenhouse gas, but leaked hydrogen extends the
-  atmospheric lifetime of methane — so a growing hydrogen industry needs emissions
+  atmospheric lifetime of methane, so a growing hydrogen industry needs emissions
   monitoring from the outset. GEMMA is upgrading the UK's hydrogen measurements
   with a new generation of higher-precision analysers, and early analysis suggests
   emissions from existing UK hydrogen sites should be detectable.
@@ -33,8 +33,8 @@ description: >
   roughly **two to three times more precise** than the long-running instruments,
   now operating at Weybourne and Jodrell Bank.
 - Early analysis indicates emissions from **current UK hydrogen industry sites
-  should be detectable** — putting independent verification in place as the
-  industry scales, rather than after.
+  should be detectable**, so independent checks can be in place as the industry
+  grows.
 :::
 
 ::: {.content-visible when-format="html"}
@@ -53,11 +53,10 @@ climate-warming gases, extending their lifetimes. The climate case for hydrogen
 therefore depends on keeping leakage low across production, storage, and
 distribution.
 
-That makes measurement a prerequisite, not an afterthought. As the UK hydrogen
-industry expands, the country needs systems capable of measuring atmospheric
-hydrogen and turning those measurements into independent estimates of national
-emissions — the same top-down verification GEMMA provides for other greenhouse
-gases.
+Measurement therefore needs to be in place early. As the UK hydrogen industry
+expands, the country needs systems that can measure atmospheric hydrogen and turn
+those measurements into independent estimates of national emissions, the same kind
+of check GEMMA provides for other greenhouse gases.
 
 ## What GEMMA did
 
@@ -66,7 +65,7 @@ made at **Mace Head since 1994** using gas chromatography with a mercuric oxide
 reduction gas analyser (GC-RGA), with further GC-RGA records at Tacolneston
 (2012–2018) and Weybourne (2008–2023).
 
-Recent instrument development has improved on this approach. Gas chromatography
+Newer instruments improve on this approach. Gas chromatography
 with a **pulsed discharge detector** (GC-PDD) delivers better precision and a more
 linear response. GEMMA now operates GC-PDD analysers at **Weybourne (since 2023)**
 and **Jodrell Bank (since 2025)**, and has begun testing an inverse modelling
@@ -97,7 +96,7 @@ system to convert hydrogen observations into emission estimates.
   **industrialised regions in north-west England**, pointing to nearby sources
   that the network is now well placed to detect.
 - Initial tests of the hydrogen inversion system show it is essential to account
-  for hydrogen's **soil sink** — hydrogen is absorbed by soils as well as emitted —
+  for hydrogen's **soil sink** (hydrogen is absorbed by soils as well as emitted)
   alongside its atmospheric sources.
 - Analysis of current observations indicates that emissions from **existing UK
   hydrogen industry sites should be detectable**.
@@ -106,10 +105,10 @@ system to convert hydrogen observations into emission estimates.
 
 The UK is building hydrogen infrastructure now. Establishing measurement capability
 in parallel means leakage can be independently quantified as the industry grows,
-rather than reconstructed later from incomplete records. The precision gains from
-the new analysers, combined with a working inversion system, are the foundations of
-that capability — and the early indication that current industrial sites are
-detectable is an encouraging sign that verification is achievable in practice.
+rather than reconstructed later from incomplete records. The more precise
+analysers and a working inversion system are the basis of that capability, and the
+early finding that current industrial sites are detectable suggests verification
+will work in practice.
 
 ## What comes next
 

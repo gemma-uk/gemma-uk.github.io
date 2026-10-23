@@ -21,18 +21,19 @@ description: >
   GEMMA has expanded the UK's independent atmospheric monitoring capability with
   new instruments at two sites: Jodrell Bank in Cheshire and Invergowrie in
   Scotland. The expansion strengthens emissions estimates for the devolved
-  administrations — and makes the UK and Ireland the most intensively monitored
+  administrations, and makes the UK and Ireland the most intensively monitored
   countries in the world for halocarbons.
 ---
 
 ::: {.key-points}
 **Key points**
 
-- GEMMA has expanded the UK DECC atmospheric monitoring network with two new sites:
-  a **Picarro CO₂/CH₄ analyser at Jodrell Bank** and a **Medusa GC-MS at Invergowrie**.
-- The additions strengthen top-down emissions estimates for the **devolved
-  administrations**, and — with four Medusa systems now operating — make the UK and
-  Ireland the **most intensively monitored countries in the world for halocarbons**.
+- GEMMA has added instruments at two sites in the UK DECC atmospheric monitoring
+  network: a **carbon dioxide and methane analyser at Jodrell Bank** and a
+  **halocarbon instrument at Invergowrie**.
+- The additions strengthen atmosphere-based emissions estimates for the **devolved
+  administrations**. With four halocarbon instruments now operating, the UK and
+  Ireland are the **most intensively monitored countries in the world for halocarbons**.
 - Data from the new instruments will be integrated into GEMMA's inverse modelling to
   tighten uncertainty on national and devolved-administration emissions.
 :::
@@ -44,31 +45,41 @@ description: >
 :::
 :::
 
+::: {.content-visible when-format="html"}
 ::: {.highlight-meta}
 **Related network information:** [University of Bristol ACRG DECC network page](https://www.bristol.ac.uk/chemistry/research/acrg/current/decc.html)
+:::
 :::
 
 ## Why this matters
 
-The UK DECC (Deriving Emissions linked to Climate Change) network is central to
-independent, atmospheric evaluation of greenhouse gas emissions across the UK and
+The UK DECC (Deriving Emissions linked to Climate Change) network provides
+independent, atmosphere-based checks on greenhouse gas emissions across the UK and
 Ireland.
 
-GEMMA has now equipped two additional sites with new instrumentation, increasing
-network coverage and analytical capability across the UK:
+GEMMA has now equipped two additional sites with new instruments:
 
-- **Jodrell Bank (Cheshire):** a new **Picarro** system measuring **CO₂** and **CH₄**
-- **Invergowrie (Scotland):** a new **Medusa Gas Chromatography Mass Spectrometer** system measuring more than 40
-  halogenated ozone-depleting substances and greenhouse gases
+- **Jodrell Bank (Cheshire):** a Picarro analyser measuring carbon dioxide (CO₂)
+  and methane (CH₄)
+- **Invergowrie (Scotland):** a Medusa gas chromatograph-mass spectrometer
+  measuring more than 40 halogenated ozone-depleting substances and greenhouse gases
 
-Together, these upgrades provide stronger observational constraints for UK emissions
-estimation, especially outside southern England and for gases that are difficult to
-quantify from bottom-up inventories alone. They also provide a stronger evidence base
-for policy development in each devolved administration.
+These upgrades improve UK emissions estimates, especially outside southern England
+and for gases that are hard to quantify from inventory statistics alone. They also
+give each devolved administration better evidence for policy.
 
 ::: {.content-visible when-format="html"}
 ![Map of the UK and Ireland DECC network showing monitoring sites and the new GEMMA instrumentation at Jodrell Bank and Invergowrie.](/research-highlights/figures/decc-network-expansion-fig1.png){fig-alt="Map of DECC network expansion highlighting Jodrell Bank and Invergowrie."}
 :::
+
+## What was installed
+
+### Jodrell Bank: continuous CO₂ and CH₄ measurements
+
+At Jodrell Bank, GEMMA installed a Picarro cavity ring-down spectroscopy analyser
+for high-frequency CO₂ and CH₄ observations. Combined with other UK and Irish
+stations, the site helps show where emissions come from across England, Wales and
+Northern Ireland.
 
 ```{=typst}
 // This map is tall (portrait). In the PDF, float it within its column (rather than
@@ -82,42 +93,24 @@ for policy development in each devolved administration.
 ])
 ```
 
-## What was installed
-
-### Jodrell Bank: continuous CO₂ and CH₄ measurements
-
-At Jodrell Bank, GEMMA installed a **Picarro cavity ring-down spectroscopy analyser**
-for high-frequency CO₂ and CH₄ observations. This site adds valuable regional coverage
-for major greenhouse gases and helps improve source attribution across England, Wales,
-and Northern Ireland when combined with other UK and Irish stations.
-
 ### Invergowrie: expanded halocarbon capability with Medusa GCMS
 
-At Invergowrie, GEMMA installed a **Medusa Gas Chromatography Mass Spectrometer** system capable of measuring over
-40 halogenated gases, including:
-
-- HFCs
-- CFCs
-- HCFCs
-- SF₆
-- NF₃
-- SO₂F₂
-
-These species are highly climate-relevant, and many are emitted from diffuse or
-sector-specific activities where inventory uncertainty can be large.
+At Invergowrie, GEMMA installed a Medusa gas chromatograph-mass spectrometer that
+measures more than 40 halogenated gases, including hydrofluorocarbons (HFCs),
+chlorofluorocarbons (CFCs), hydrochlorofluorocarbons (HCFCs), SF₆, NF₃ and SO₂F₂.
+Many are potent greenhouse gases, released from scattered or specialised sources
+where inventory estimates can be very uncertain.
 
 ### Weybourne: better integration through unified data evaluation
 
-GEMMA is also improving integration of the **Weybourne** station (run by the
-National Centre for Atmospheric Science, NCAS/UEA) with the DECC network by
-unifying data evaluation processes across sites.
-
-This harmonisation improves comparability between stations, supports more consistent
-quality control, and makes network-wide interpretation more robust for policy use.
+GEMMA is also bringing the **Weybourne** station (run by the National Centre for
+Atmospheric Science, NCAS/UEA) into line with the DECC network by using the same
+data evaluation processes at every site. This makes measurements from different
+stations easier to compare and to quality-control consistently.
 
 ## What this means for policy
 
-The network expansion is designed to deliver two major outcomes.
+The network expansion is designed to deliver two outcomes.
 
 1. **More accurate emissions estimates for devolved administrations**
 
@@ -125,22 +118,19 @@ Improved spatial coverage strengthens top-down constraints for emissions from
 England, Scotland, Wales, and Northern Ireland individually, not only for the UK
 total.
 
-2. **Dramatically improved quantification of UK halocarbon emissions**
+2. **Much better estimates of UK halocarbon emissions**
 
-With this deployment, the UK and Ireland now operate **four Medusa systems**
-(including Mace Head, Tacolneston, and Ridge Hill), making them the most intensively
-monitored countries in the world for these gases.
-
-This level of coverage supports faster detection of changing emission patterns,
-improved inventory verification, and stronger evidence for climate and air-quality
-policy.
+The UK and Ireland now operate **four Medusa systems** (the others are at Mace
+Head, Tacolneston and Ridge Hill), more than any other country for these gases.
+This coverage means changes in emissions can be detected sooner and checked
+against the inventory, giving firmer evidence for climate and air-quality policy.
 
 ## What comes next
 
-As data from the new instruments accumulate, GEMMA will integrate them into inverse
-modelling frameworks to:
+As data from the new instruments accumulate, GEMMA will use them in its inverse
+models to:
 
 - tighten uncertainty ranges on national and devolved-administration emissions
 - improve sectoral interpretation of halocarbon trends
-- provide robust, independent evidence to support UK reporting and mitigation policy
+- provide independent evidence for UK reporting and mitigation policy
 - reduce the latency between emission changes and their detection in the atmosphere

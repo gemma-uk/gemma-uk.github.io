@@ -16,15 +16,15 @@ description: >
   GEMINI-UK, a new NCEO-built network of ten sun-tracking spectrometers hosted at
   sites from Aberdeen to Guernsey, measures carbon dioxide and methane across the
   whole of the UK. Simulations show it could cut uncertainty in UK emission
-  estimates by up to 59% for CO2 and 75% for methane — a major new capability for
-  independently verifying progress towards net zero.
+  estimates by up to 59% for CO₂ and 75% for methane, giving the UK a new,
+  independent way to check progress towards net zero.
 ---
 
 ::: {.key-points}
 **Key points**
 
-- Ten sun-tracking spectrometers — hosted by universities, research institutions,
-  and a secondary school from **Aberdeen to Guernsey** — now measure carbon dioxide
+- Ten sun-tracking spectrometers, hosted by universities, research institutions
+  and a secondary school from **Aberdeen to Guernsey**, now measure carbon dioxide
   and methane across the whole of the UK.
 - Simulated trials show the network could cut uncertainty in UK emission estimates
   by **up to 59% for CO₂** and **up to 75% for methane**, complementing the existing
@@ -48,7 +48,7 @@ description: >
 ## Why this matters
 
 Progress towards the UK's net zero targets is measured against national emissions
-estimates — so those estimates need to be trustworthy. Atmospheric observations
+estimates, so those estimates need to be trustworthy. Atmospheric observations
 provide an independent way to check them: measured concentrations of greenhouse
 gases reflect what was actually emitted, independent of the assumptions behind
 official inventories.
@@ -58,8 +58,8 @@ tall-tower sites. **GEMINI-UK** (the Greenhouse gas Emission Monitoring network 
 Inform Net-zero Initiatives for the UK), developed by researchers at the National
 Centre for Earth Observation (NCEO), adds a new kind of coverage: a nationwide
 network of ten ground-based instruments measuring the total column of carbon
-dioxide (CO₂) and methane (CH₄) in the atmosphere overhead — a major new
-capability within the wider GEMMA programme.
+dioxide (CO₂) and methane (CH₄) in the atmosphere overhead, as part of the wider
+GEMMA programme.
 
 ## What GEMMA did
 
@@ -92,13 +92,13 @@ greenhouse gas emissions.
 
 ## What we found
 
-The simulated trials (Kurganskiy et al., 2025) show that GEMINI-UK could deliver
-substantial improvements in the UK's ability to monitor greenhouse gas emissions:
+The simulated trials (Kurganskiy et al., 2025) show how much GEMINI-UK could
+improve the UK's monitoring of greenhouse gas emissions:
 
 - Uncertainty in UK **CO₂ emission estimates** could be reduced by as much as
   **51% in winter and 59% in summer** using GEMINI-UK observations alone.
-- Combined with existing tall-tower measurements, uncertainty reductions remain
-  significant, reaching **24% during summer months**.
+- Combined with existing tall-tower measurements, uncertainty still falls by up to
+  **24% in summer**.
 - Although designed primarily for CO₂, the network also delivers strong benefits
   for methane, cutting **CH₄ emission uncertainties by up to 75% in summer**.
 - Benefits are greatest in summer, when longer daylight hours and clearer skies
@@ -106,16 +106,15 @@ substantial improvements in the UK's ability to monitor greenhouse gas emissions
 
 ## What this means for policy
 
-GEMINI-UK is set to become an important component of the UK's greenhouse gas
-monitoring infrastructure. Alongside the existing tall-tower network, it extends
-independent, observation-based emissions verification across the whole of the UK —
-supporting credible reporting against net zero targets and sharper evaluation of
-mitigation policies.
+GEMINI-UK will become part of the UK's greenhouse gas monitoring infrastructure.
+Alongside the existing tall-tower network, it extends independent, observation-based
+checks on emissions across the whole of the UK. This supports reporting against net
+zero targets and the evaluation of mitigation policies.
 
 ## What comes next
 
-- Bring the full network into routine operation, shifting from demonstrating what
-  GEMINI-UK could achieve to showing what it delivers in practice.
+- Bring the full network into routine operation and measure how it performs in
+  practice, not just in simulations.
 - Assimilate GEMINI-UK observations into the UK emissions-monitoring systems
   developed through GEMMA, producing independent, observation-based estimates of
   regional CO₂ and CH₄ emissions.
