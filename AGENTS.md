@@ -8,7 +8,7 @@ so keep this file as the single source of truth.
 
 This is the public website for the **GEMMA** (Greenhouse gas Measurement and
 Modelling Advancement) project, funded by UKRI under the Building a Green Future
-programme (2024–2027). It is built with **Quarto** and deployed to GitHub Pages.
+programme (April 2023 – March 2027). It is built with **Quarto** and deployed to GitHub Pages.
 
 **Purpose:** showcase what GEMMA has achieved over the project, to attract the
 attention of future funders.
