@@ -52,11 +52,57 @@ measurements, metrology, climate science.
 :::
 :::
 
+::: {.team-entry}
+::: {.team-photo}
+![](assets/photos/rob-parker.jpg){fig-alt="Dr Rob Parker"}
+:::
+::: {.team-bio}
+**Dr Rob Parker** · NCEO, University of Leicester
+
+Co-lead on integration of space-based remote sensing greenhouse gas capability.
+Research interests: satellite greenhouse gas observations, methane, Earth system
+model evaluation, environmental digital twins.
+
+[rjp23@le.ac.uk](mailto:rjp23@le.ac.uk) | [ORCID](https://orcid.org/0000-0002-0801-0831)
+:::
+:::
+
 ---
 
 ## Researchers and postdoctoral fellows
 
-*To be completed.*
+::: {.team-entry}
+::: {.team-photo}
+![](assets/photos/neil-humpage.jpg){fig-alt="Dr Neil Humpage"}
+:::
+::: {.team-bio}
+**Dr Neil Humpage** · NCEO, University of Leicester
+
+Postdoctoral researcher on GEMINI-UK, a UK network of ground-based instruments
+that measure carbon dioxide and methane using sunlight.
+Research interests: ground-based remote sensing of greenhouse gases, satellite
+validation.
+
+[nh58@leicester.ac.uk](mailto:nh58@leicester.ac.uk) | [ORCID](https://orcid.org/0000-0002-1109-2524)
+:::
+:::
+
+::: {.team-entry}
+::: {.team-photo}
+![](assets/photos/lakshmi-n-bharathan.jpg){fig-alt="Dr Lakshmi N Bharathan"}
+:::
+::: {.team-bio}
+**Dr Lakshmi N Bharathan** · NCEO, University of Leicester (2023–2026)
+
+Postdoctoral researcher on integration of space-based remote sensing greenhouse
+gas capability. Now a Ramanujan Fellow at the National Centre for Earth Science
+Studies, India.
+Research interests: satellite remote sensing of greenhouse gases, methane,
+atmospheric aerosols, optimisation methods for satellite data.
+
+[lnb5@leicester.ac.uk](mailto:lnb5@leicester.ac.uk) | [ORCID](https://orcid.org/0000-0001-5541-0961)
+:::
+:::
 
 ## Advisory board
 
