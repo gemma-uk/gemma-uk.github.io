@@ -37,6 +37,68 @@ See the [README](README.md) for build commands and project structure.
 - Dates are displayed UK-style ("24 June 2026"); this is set site-wide in
   `_quarto.yml`.
 
+## Avoid machine-sounding prose
+
+Text on this site should read as if a scientist wrote it carefully for a
+policy reader. Readers, funders especially, quickly notice generic
+AI-generated prose, and it undermines credibility. Write like the existing
+highlights, which are plain and specific.
+
+**Be specific rather than impressive.** Every sentence should carry a fact: a
+number, a place, a gas, a date, an organisation. If a sentence would still be true
+of any research project, cut it or replace it with something concrete.
+
+- Weak: "This groundbreaking work represents a significant step forward in
+  emissions monitoring."
+- Better: "Simulations show the ten GEMINI-UK instruments could cut uncertainty in
+  UK methane emission estimates by up to 75% in summer."
+
+**Words and phrases to avoid** (use the plain alternative or drop them):
+
+| Avoid | Prefer |
+|---|---|
+| delve, dive into, explore (as filler) | look at, examine, or just state the finding |
+| crucial, vital, pivotal, critical (as emphasis) | important, or say *why* it matters |
+| leverage, harness, utilise | use |
+| robust (unless describing a statistical property) | reliable, or be specific |
+| groundbreaking, cutting-edge, state-of-the-art, world-class, unprecedented | describe what is new, plainly |
+| landscape, realm, ecosystem, tapestry, journey | omit |
+| seamless, holistic, comprehensive, transformative, game-changer | omit or be specific |
+| plays a key role in, serves as, stands as | is, does |
+| underscores, highlights the importance of, sheds light on | shows |
+| it is worth noting that, importantly, notably, crucially | omit; just say it |
+| not only… but also | and |
+| in today's rapidly changing world, in an era of… | omit |
+| paving the way, unlocking the potential, a testament to | say what it enables |
+
+**Structural habits to avoid:**
+
+- **The "rule of three"** used as rhythm: "accurate, timely, and credible". A
+  list is fine when there really are three items, but don't pad to three.
+- **Contrast for drama:** "It's not just X — it's Y." / "This isn't about X; it's
+  about Y." State Y.
+- **Em dashes everywhere.** One per paragraph at most; use commas, brackets, or a
+  full stop.
+- **Summary sentences** at the end of paragraphs or sections that restate what was
+  just said ("Overall, this demonstrates…", "In summary…"). End on the last new
+  fact.
+- **Signposting:** "Let's take a look at…", "In this section we…". Use headings
+  instead.
+- **Hedge stacking:** "could potentially help to possibly improve". One hedge,
+  placed where the uncertainty really is.
+- **Bold everywhere.** Bold only the few words a skimming reader must see; the
+  key points box already does the heavy lifting.
+- **Bullets for continuous reasoning.** Use bullets for genuinely separate items;
+  write cause-and-effect as sentences.
+- **Inflated significance.** Don't claim a result "transforms" or "revolutionises"
+  anything. Let the numbers make the case. Funders trust understatement backed
+  by evidence.
+
+**Before finishing any prose edit**, reread it against this list and check that
+every claim is supported by the source material (paper, author draft, or existing
+page). Do not add claims, figures, or policy implications that the source does not
+support.
+
 ## Key terminology (use these consistently)
 
 | Term | Notes |
