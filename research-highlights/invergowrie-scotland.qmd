@@ -49,6 +49,8 @@ description: >
 ::: {.content-visible when-format="html"}
 ::: {.highlight-meta}
 **About the tower:** [Hutton and the University of Edinburgh unveil SOAR tall tower (James Hutton Institute, August 2026)](https://www.hutton.ac.uk/hutton-and-the-university-of-edinburgh-unveil-soar-tall-tower/)
+
+**SOAR website:** [blogs.ed.ac.uk/soar](https://blogs.ed.ac.uk/soar/)
 :::
 :::
 

@@ -1,5 +1,5 @@
 ---
-title: "Two new stations extend the UK's independent greenhouse gas monitoring network"
+title: "Extending the UK's independent greenhouse gas monitoring network"
 date: 2026-05-22
 author:
   - name: "Joe Pitt"
@@ -93,13 +93,15 @@ Northern Ireland.
 ])
 ```
 
-### Invergowrie: expanded halocarbon capability with Medusa GCMS
+### Invergowrie: halocarbon measurements in Scotland
 
-At Invergowrie, GEMMA installed a Medusa gas chromatograph-mass spectrometer that
-measures more than 40 halogenated gases, including hydrofluorocarbons (HFCs),
-chlorofluorocarbons (CFCs), hydrochlorofluorocarbons (HCFCs), SF₆, NF₃ and SO₂F₂.
-Many are potent greenhouse gases, released from scattered or specialised sources
-where inventory estimates can be very uncertain.
+On the new SOAR tall tower at Invergowrie, GEMMA installed a Medusa instrument that
+measures more than 40 halogenated gases. Many are potent greenhouse gases whose
+inventory estimates can be very uncertain.
+[The [Invergowrie research highlight](invergowrie-scotland.qmd) describes the tower
+and its first results.]{.content-visible when-format="html"}
+[The [Invergowrie research highlight](https://gemma-uk.github.io/research-highlights/invergowrie-scotland.html)
+describes the tower and its first results.]{.content-visible when-format="typst"}
 
 ### Weybourne: better integration through unified data evaluation
 
