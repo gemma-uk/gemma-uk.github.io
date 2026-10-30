@@ -1,0 +1,122 @@
+---
+title: "The GEMMA Console: putting independent checks on UK emissions in front of stakeholders"
+date: 2026-10-30
+author:
+  - name: "Prasad Sutar"
+    affiliation: "University of Bristol"
+  - name: "Matt Rigby"
+    affiliation: "University of Bristol"
+    email: "matt.rigby@bristol.ac.uk"
+  - name: "Alistair Manning"
+    affiliation: "Met Office"
+  - name: "Alison Redington"
+    affiliation: "Met Office"
+categories:
+  - methane
+  - nitrous oxide
+  - halocarbons
+  - inverse modelling
+  - emissions by sector
+image: /research-highlights/figures/gemma-dashboard-fig1.png
+description: >
+  GEMMA has built a prototype online dashboard, the GEMMA Console, that shows UK
+  greenhouse gas emissions estimated from atmospheric measurements alongside the
+  official inventory. Policymakers can see where the two agree and where they
+  differ, gas by gas, with maps and sector breakdowns.
+---
+
+::: {.key-points}
+**Key points**
+
+- The **GEMMA Console** is a prototype online dashboard that shows UK emissions
+  estimated from atmospheric measurements next to the UK greenhouse gas inventory.
+- It covers methane, nitrous oxide and the fluorinated gases covered by the Paris
+  Agreement, with maps and sector breakdowns that show **where the two kinds of
+  estimate differ**.
+- It is shared with key users under password protection while GEMMA works out how
+  to present it to a wider audience.
+- A fully operational system could update the atmospheric estimates about a month
+  after measurement, **around two years before inventory figures for the same
+  period are published**.
+:::
+
+::: {.content-visible when-format="html"}
+::: {.pdf-download-bar}
+**Download this page as a PDF policy brief:**
+[Download PDF](gemma-console.pdf){.btn .btn-sm .btn-primary}
+:::
+:::
+
+::: {.highlight-meta}
+**GEMMA Console:** [gemmaconsole.openghg.org](https://gemmaconsole.openghg.org/) (password protected; currently shared with key users)
+:::
+
+## Why this matters
+
+The UK greenhouse gas inventory is the official record of the UK's emissions. It
+is used to track carbon budgets and to report under the Paris Agreement. It is
+calculated from statistics such as fuel use, livestock numbers and landfill
+records, combined with estimates of how much gas each activity releases. For some
+gases and sectors these estimates are uncertain, and an error can go unnoticed
+for years.
+
+Atmospheric measurements give an independent check. By combining measurements
+from the UK's monitoring network with models of how air moves, scientists can
+work out how much of each gas must have been emitted to produce the
+concentrations observed. These "top-down" estimates (also called atmospheric
+inversions) are already compared with the inventory each year, but the results
+sit in technical reports that can be relatively inaccessible to stakeholders.
+
+## What GEMMA built
+
+GEMMA built the GEMMA Console, a web dashboard that puts top-down estimates and
+the inventory side by side. Users choose a gas and whether to view monthly or
+yearly figures, and can see:
+
+- UK totals over time from each model, with their uncertainty ranges, alongside
+  the inventory;
+- maps showing where in the UK emissions come from;
+- breakdowns by sector.
+
+The console covers methane (CH₄), nitrous oxide (N₂O) and the fluorinated gases
+covered by the Paris Agreement: hydrofluorocarbons (HFCs), perfluorocarbons
+(PFCs), sulphur hexafluoride (SF₆) and nitrogen trifluoride (NF₃). Top-down
+estimates currently come from two independent inverse modelling systems: the
+Met Office's InTEM and the University of Bristol's RHIME. In this first phase of
+GEMMA the estimates are updated about once a year.
+
+```{=typst}
+// Screenshot: float it within its column (like the GEMINI-UK figure). At full
+// page width it pushes the brief onto a second page.
+#place(top, float: true, clearance: 0.8em, block[
+  #align(center)[#image("figures/gemma-dashboard-fig1.png", width: 100%)]
+  #v(0.15em)
+  #text(size: 0.82em, fill: rgb("#26557a"))[*Figure 1:* The GEMMA Console, showing monthly UK methane emissions estimated from atmospheric measurements by the University of Bristol's RHIME (blue) and the Met Office's InTEM (orange) inverse modelling systems, compared with the 2025 UK greenhouse gas inventory (dark line). Shaded bands show the uncertainty in each estimate. The two systems differ mainly because they make different assumptions about how uncertain their inputs are.]
+])
+```
+
+::: {.content-visible when-format="html"}
+![The GEMMA Console, showing monthly UK methane emissions estimated from atmospheric measurements by two inverse modelling systems, the University of Bristol's RHIME (blue) and the Met Office's InTEM (orange), compared with the 2025 edition of the UK greenhouse gas inventory (dark line), 2014 to 2023. Shaded bands show the uncertainty in each estimate. The two systems differ mainly because they make different assumptions about how uncertain their inputs are.](/research-highlights/figures/gemma-dashboard-fig1.png){fig-alt="Screenshot of the GEMMA Console dashboard titled UK National Emissions, with drop-down menus to choose a gas and time resolution. A chart of UK methane emissions from 2014 to 2023, in million tonnes of CO₂ equivalent, shows the inventory as a slowly declining dark line near 60, with a shaded uncertainty band. Monthly estimates from RHIME (blue) and InTEM (orange) fluctuate between about 30 and 70, each with a shaded uncertainty band."}
+:::
+
+The console is password protected for now. This lets GEMMA share it with key
+users and learn how they use it, while working out how to present the results to
+the public without causing confusion.
+
+## What this means for policy
+
+With the console, policymakers can check in a few clicks whether atmospheric
+evidence supports reported UK emissions for each major non-CO₂ greenhouse gas.
+Because each estimate is shown with its uncertainty, users can see whether a gap
+between the inventory and the atmosphere is larger than the uncertainty in the
+estimates. Where it is, the maps and sector breakdowns show where to look,
+helping inventory teams decide which estimates to revisit first.
+
+## What comes next
+
+- Add estimates from more models, such as FLEXPART and GEOS-Chem, so users can
+  compare several independent estimates.
+- In a second phase of GEMMA, if funded, move to an operational system updated
+  about a month after measurement. Changes in emissions would then show up around
+  two years before they appear in the inventory.
+- Decide how the console can be opened to a wider audience.
