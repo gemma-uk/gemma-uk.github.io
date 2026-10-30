@@ -134,7 +134,8 @@ atmospheric aerosols, optimisation methods for satellite data.
 ::: {.team-bio}
 **Dr Idris Hayward** · University of Bristol
 
-Research Associate in greenhouse gas inverse modelling, specialising in modelling of column methane using NAME.
+Research Associate in greenhouse gas inverse modelling, specialising in modelling of column methane using the Met Office's NAME model of how air moves
+through the atmosphere.
 Research interests: atmospheric transport, methane.
 
 [ORCID](https://orcid.org/0009-0009-8743-2618)
@@ -170,8 +171,10 @@ measurements and testing atmospheric transport models.
 ::: {.team-bio}
 **Dr Supriya Mantri** · University of Bristol
 
-Research Associate in the School of Chemistry specialising in inverse modelling using OpenGHG and RHIME.
+Research Associate in the School of Chemistry specialising in inverse modelling using OpenGHG and the University of Bristol's RHIME model.
 Research interests: methane, F-gases.
+
+[ORCID](https://orcid.org/0000-0002-4058-3314)
 :::
 :::
 
