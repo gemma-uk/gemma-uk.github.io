@@ -118,6 +118,17 @@ Point for the Integrated Carbon Observation System (ICOS).
 
 ::: {.team-entry}
 ::: {.team-bio}
+**Peter Andrews** · Met Office
+
+Works on inverse modelling of non-CO₂ greenhouse gases.
+Research interests: atmospheric transport modelling, inverse modelling.
+
+[ORCID](https://orcid.org/0009-0003-9436-965X)
+:::
+:::
+
+::: {.team-entry}
+::: {.team-bio}
 **Dr Lakshmi N Bharathan** · NCEO, University of Leicester (2023–2026)
 
 Postdoctoral researcher on integration of space-based remote sensing greenhouse
@@ -180,6 +191,17 @@ Research interests: methane, F-gases.
 
 ::: {.team-entry}
 ::: {.team-bio}
+**Dr Alison Redington** · Met Office
+
+Works on inverse modelling of non-CO₂ greenhouse gases.
+Research interests: atmospheric transport modelling, inverse modelling.
+
+[ORCID](https://orcid.org/0000-0002-5223-3098)
+:::
+:::
+
+::: {.team-entry}
+::: {.team-bio}
 **Dr Chris Rennick** · National Physical Laboratory
 
 Senior Scientist. Runs NPL's Boreas instrument, which measures the isotopic
@@ -212,4 +234,3 @@ Research interests: open data, software engineering.
 [ORCID](https://orcid.org/0009-0004-1221-6818)
 :::
 :::
-
