@@ -14,7 +14,7 @@ title: "Team"
 Lead on measurement traceability.
 Research interests: atmospheric measurement, metrology, climate science.
 
-[tg@npl.co.uk](mailto:tg@npl.co.uk) | [ORCID](https://orcid.org/0000-0003-4320-396X)
+[tom.gardiner@npl.co.uk](mailto:tom.gardiner@npl.co.uk) | [ORCID](https://orcid.org/0000-0003-4320-396X)
 :::
 :::
 
@@ -117,25 +117,6 @@ Point for the Integrated Carbon Observation System (ICOS).
 ## Researchers and postdoctoral fellows
 
 ::: {.team-entry}
-::: {.team-photo}
-![](assets/photos/neil-humpage.jpg){fig-alt="Dr Neil Humpage"}
-:::
-::: {.team-bio}
-**Dr Neil Humpage** · NCEO, University of Leicester
-
-Postdoctoral researcher on GEMINI-UK, a UK network of ground-based instruments
-that measure carbon dioxide and methane using sunlight.
-Research interests: ground-based remote sensing of greenhouse gases, satellite
-validation.
-
-[nh58@leicester.ac.uk](mailto:nh58@leicester.ac.uk) | [ORCID](https://orcid.org/0000-0002-1109-2524)
-:::
-:::
-
-::: {.team-entry}
-::: {.team-photo}
-![](assets/photos/lakshmi-n-bharathan.jpg){fig-alt="Dr Lakshmi N Bharathan"}
-:::
 ::: {.team-bio}
 **Dr Lakshmi N Bharathan** · NCEO, University of Leicester (2023–2026)
 
@@ -149,7 +130,83 @@ atmospheric aerosols, optimisation methods for satellite data.
 :::
 :::
 
-## Advisory board
+::: {.team-entry}
+::: {.team-bio}
+**Dr Idris Hayward** · University of Bristol
 
-*To be completed.*
+Research Associate in greenhouse gas inverse modelling, specialising in modelling of column methane using NAME.
+Research interests: atmospheric transport, methane.
+
+[ORCID](https://orcid.org/0009-0009-8743-2618)
+:::
+:::
+
+::: {.team-entry}
+::: {.team-bio}
+**Dr Neil Humpage** · NCEO, University of Leicester
+
+Postdoctoral researcher on GEMINI-UK, a UK network of ground-based instruments
+that measure carbon dioxide and methane using sunlight.
+Research interests: ground-based remote sensing of greenhouse gases, satellite
+validation.
+
+[nh58@leicester.ac.uk](mailto:nh58@leicester.ac.uk) | [ORCID](https://orcid.org/0000-0002-1109-2524)
+:::
+:::
+
+::: {.team-entry}
+::: {.team-bio}
+**Dr Dafina Kikaj** · National Physical Laboratory
+
+Senior Scientist in NPL's Greenhouse Gas Metrology group.
+Research interests: radon as a natural tracer for interpreting greenhouse gas
+measurements and testing atmospheric transport models.
+
+[ORCID](https://orcid.org/0000-0001-7801-7396)
+:::
+:::
+
+::: {.team-entry}
+::: {.team-bio}
+**Dr Supriya Mantri** · University of Bristol
+
+Research Associate in the School of Chemistry specialising in inverse modelling using OpenGHG and RHIME.
+Research interests: methane, F-gases.
+:::
+:::
+
+::: {.team-entry}
+::: {.team-bio}
+**Dr Chris Rennick** · National Physical Laboratory
+
+Senior Scientist. Runs NPL's Boreas instrument, which measures the isotopic
+composition of methane at the Heathfield measurement station in East Sussex.
+Research interests: methane isotope measurements, laser spectroscopy.
+
+[ORCID](https://orcid.org/0000-0003-4993-0156)
+:::
+:::
+
+::: {.team-entry}
+::: {.team-bio}
+**Dr Emmal Safi** · National Physical Laboratory
+
+Scientist in NPL's Greenhouse Gas Metrology group.
+Research interests: methane isotope measurements, preparing air samples for
+isotope analysis.
+
+[ORCID](https://orcid.org/0000-0002-3202-001X)
+:::
+:::
+
+::: {.team-entry}
+::: {.team-bio}
+**Prasad Sutar** · University of Bristol
+
+Research Software Engineer in the School of Chemistry. Lead developer of the GEMMA Console and co-developer of OpenGHG.
+Research interests: open data, software engineering.
+
+[ORCID](https://orcid.org/0009-0004-1221-6818)
+:::
+:::
 

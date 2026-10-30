@@ -4,10 +4,48 @@ title: "Outputs"
 
 ## Publications
 
-Peer-reviewed publications arising from the GEMMA project will be listed here.
-All publications are open access where possible.
+Peer-reviewed publications arising from the GEMMA and partner projects, newest first.
+All are open access.
 
-*Publications to be added.*
+- Gerrand et al. (2026). [A machine learning method for estimating atmospheric trace
+  gas concentration baselines](https://doi.org/10.5194/amt-19-5387-2026).
+  *Atmospheric Measurement Techniques*, 19, 5387–5400.
+- Ramsden et al. (2026). [Using high-frequency observations of δ¹³C-CH₄ and δ²H-CH₄
+  and uncertain regional isotopic signatures to estimate sources of UK methane
+  emissions](https://doi.org/10.5194/acp-26-11421-2026). *Atmospheric Chemistry and
+  Physics*, 26, 11421–11448.
+- Das et al. (2026). [Comparing v11.2 OCO-2 and v11 OCO-3 XCO₂ retrievals with
+  ground-based COCCON measurements](https://doi.org/10.1029/2025EA004646). *Earth and
+  Space Science*, 13, e2025EA004646.
+- De Longueville et al. (2026). [European HFC emissions evaluated with multiple
+  atmospheric inverse models and UNFCCC national
+  inventories](https://doi.org/10.5194/acp-26-7647-2026). *Atmospheric Chemistry and
+  Physics*, 26, 7647–7675.
+- Fillola et al. (2026). [Enabling fast greenhouse gas emissions inference from
+  satellites with GATES: a Graph-Neural-Network Atmospheric Transport Emulation
+  System](https://doi.org/10.5194/gmd-19-1893-2026). *Geoscientific Model
+  Development*, 19, 1893–1915.
+- Kurganskiy et al. (2025). [The Greenhouse gas Emission Monitoring network to Inform
+  Net-zero Initiatives UK (GEMINI-UK): network design, theoretical performance, and
+  initial data](https://doi.org/10.5194/amt-18-7525-2025). *Atmospheric Measurement
+  Techniques*, 18, 7525–7563.
+- Defratyka et al. (2025). [Evaluation of data processing strategies for methane
+  isotopic signatures determined during near-source
+  measurements](https://doi.org/10.16993/tellusb.1878). *Tellus B: Chemical and
+  Physical Meteorology*, 77.
+- Kikaj et al. (2025). [Direct high-precision radon quantification for interpreting
+  high-frequency greenhouse gas measurements](https://doi.org/10.5194/amt-18-151-2025).
+  *Atmospheric Measurement Techniques*, 18, 151–175.
+- Saboya et al. (2024). [Combining top-down and bottom-up approaches to evaluate recent
+  trends and seasonal patterns in UK N₂O
+  emissions](https://doi.org/10.1029/2024JD040785). *Journal of Geophysical Research:
+  Atmospheres*, 129, e2024JD040785.
+- Chawner et al. (2024). [Atmospheric oxygen as a tracer for fossil fuel carbon
+  dioxide: a sensitivity study in the UK](https://doi.org/10.5194/acp-24-4231-2024).
+  *Atmospheric Chemistry and Physics*, 24, 4231–4252.
+- Safi et al. (2024). [Fractionation of methane isotopologues during preparation for
+  analysis from ambient air](https://doi.org/10.1021/acs.analchem.3c04891).
+  *Analytical Chemistry*, 96, 6139–6147.
 
 ---
 
@@ -30,9 +68,32 @@ the GEMMA and DECC networks are archived at the
 
 ## Software and tools
 
-Open-source tools developed by the GEMMA team:
+GEMMA has supported the development of the following open-source software, in
+collaboration with other projects. All are hosted by the
+[OpenGHG organisation on GitHub](https://github.com/openghg) and free to use.
 
-*Tool descriptions to be added.*
+**OpenGHG**
+A platform for storing, sharing and analysing greenhouse gas data, including
+atmospheric measurements, emissions maps and model outputs. It brings these
+datasets into a common format so that researchers can work with them together.
+[Code](https://github.com/openghg/openghg) ·
+[Website](https://www.openghg.org) ·
+[Documentation](https://docs.openghg.org/)
+
+**OpenGHG Inversions**
+Software for atmospheric inversion: estimating where greenhouse gases are emitted,
+and how much, from measured concentrations. It links the data handling in OpenGHG
+with the inverse models developed by the Atmospheric Chemistry Research Group at the
+University of Bristol.
+[Code](https://github.com/openghg/openghg_inversions) ·
+[Documentation](https://openghg.github.io/openghg_inversions/) ·
+[Archived release (Zenodo)](https://doi.org/10.5281/zenodo.10650595)
+
+**FLUXIE (Flux Intercomparison Environment)**
+Tools for comparing emissions estimates produced by different inverse models,
+developed with the PARIS project.
+[Code](https://github.com/openghg/fluxie) ·
+[Archived release (Zenodo)](https://doi.org/10.5281/zenodo.19184134)
 
 ---
 

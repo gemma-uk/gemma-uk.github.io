@@ -60,7 +60,7 @@ description: >
 :::
 
 ::: {.highlight-meta}
-**Related publications:** [Using high-frequency observations of δ¹³C-CH₄ and δ²H-CH₄ and uncertain regional isotopic signatures to estimate sources of UK methane emissions](https://doi.org/10.5194/egusphere-2026-779); [Quantifying fossil fuel methane emissions using observations of atmospheric ethane and an uncertain emission ratio](https://doi.org/10.5194/acp-22-3911-2022)
+**Related publications:** [Using high-frequency observations of δ¹³C-CH₄ and δ²H-CH₄ and uncertain regional isotopic signatures to estimate sources of UK methane emissions](https://doi.org/10.5194/acp-26-11421-2026); [Quantifying fossil fuel methane emissions using observations of atmospheric ethane and an uncertain emission ratio](https://doi.org/10.5194/acp-22-3911-2022)
 :::
 
 ## Why this matters
