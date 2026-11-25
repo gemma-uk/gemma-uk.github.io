@@ -276,4 +276,7 @@ under `_site/` — it is the build output directory.
 
 The site is public and indexed by search engines: `robots.txt` allows all
 crawlers and points to the `sitemap.xml` that Quarto generates from `site-url`.
-Anything pushed to `main` is published, so keep drafts on a branch.
+Anything pushed to `main` is published, and because the repository is public,
+every branch and commit is visible too. Keep unpublished results, author
+drafts and personal data out of the repository entirely: put working drafts in
+the git-ignored `research-highlights/drafts/` folder.
