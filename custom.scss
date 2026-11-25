@@ -23,45 +23,81 @@ $link-color: $primary;
 /*-- scss:rules --*/
 
 #quarto-header .navbar-brand img.navbar-logo {
-  max-height: 3.5rem;
+  max-height: 1.9rem; // wordmark only (no tagline), so it can sit smaller
   width: auto;
 }
 
 // ── Hero section ──────────────────────────────────────────────────────────────
 
+// Home page: start the hero flush under the navbar (drop Quarto's top spacing
+// and the empty title block).
+#quarto-content:has(.hero-banner) {
+  padding-top: 0;
+  margin-top: 0;
+
+  main.content {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  #title-block-header:empty {
+    display: none;
+  }
+}
+
 .hero-banner {
-  background: linear-gradient(140deg, #1b3a5c 0%, #1b5e8c 55%, #2980b9 100%);
-  color: #ffffff;
-  padding: 5.5rem 1.5rem 4.5rem;
-  text-align: center;
+  // Light hero so the navy logo reads. Text sits on the left; the emissions map
+  // (.hero-map) fills the right and fades in from the left.
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, #e6f0f9 0%, #ffffff 100%);
+  color: $headings-color;
+  padding: 5rem max(1.5rem, calc((100vw - 1140px) / 2));
+  text-align: left;
   margin-bottom: 0;
+
+  > :not(.hero-map) {
+    position: relative; // sit above the map
+    z-index: 1;
+    max-width: 560px;
+  }
 
   p.lead {
     font-size: clamp(1rem, 2.5vw, 1.25rem);
-    max-width: 680px;
-    margin: 0 auto 2rem;
-    opacity: 0.9;
+    margin: 0 0 2rem;
     line-height: 1.6;
   }
 
   .hero-buttons {
     display: flex;
     gap: 1rem;
-    justify-content: center;
     flex-wrap: wrap;
+  }
+
+  .hero-map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 62%;
+    // The source image is a wide banner with land in its middle two-thirds;
+    // show it at full hero height, anchored so England sits at the right.
+    background: url("assets/feature-image.png") 70% center / auto 115% no-repeat;
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 45%);
+    mask-image: linear-gradient(to right, transparent 0%, #000 45%);
   }
 
   // Logo — real image, shown once file is in place
   .hero-logo {
-    max-width: min(480px, 80vw);
+    max-width: min(400px, 80vw);
     width: 100%;
     height: auto;
-    margin: 0 auto 1.75rem;
+    margin: 0 0 1.75rem;
     display: block;
   }
 
   @media (max-width: 576px) {
-    padding: 3.5rem 1.25rem 3rem;
+    padding: 3rem 1.25rem 3rem;
 
     .hero-logo {
       max-width: min(280px, 72vw);
@@ -215,8 +251,7 @@ figure.feature-image-wrap {
 // ── Stats bar ─────────────────────────────────────────────────────────────────
 
 .stats-bar {
-  background: $light;
-  border-bottom: 1px solid #dee2e6;
+  background: $headings-color;
   padding: 2.5rem 1rem;
 
   .stats-inner {
@@ -235,14 +270,14 @@ figure.feature-image-wrap {
       display: block;
       font-size: 2.25rem;
       font-weight: 700;
-      color: $primary;
+      color: #ffffff;
       line-height: 1.1;
     }
 
     .stat-label {
       display: block;
       font-size: 0.8rem;
-      color: $secondary;
+      color: #b9d3ea;
       text-transform: uppercase;
       letter-spacing: 0.06em;
       margin-top: 0.25rem;
@@ -272,6 +307,24 @@ section.section-header {
     padding-bottom: 0;
     border-bottom: none; // drop Quarto's default full-width h2 underline here
   }
+}
+
+// On the home page these bands also carry `.column-screen` (full viewport width);
+// keep their contents at a readable width.
+section.section-header.column-screen > :not(h2) {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.section-header.column-screen > #recent-highlights,
+section.section-header.column-screen > .partner-logos {
+  max-width: 1140px;
+}
+
+.feature-split.column-screen {
+  padding-left: max(1.5rem, calc((100vw - 1000px) / 2));
+  padding-right: max(1.5rem, calc((100vw - 1000px) / 2));
 }
 
 // Tinted band: grey box spans the whole section, title included.
@@ -529,6 +582,27 @@ section.section-tinted {
 
 @media (max-width: 768px) {
   .hero-banner {
-    padding: 3.5rem 1rem 3rem;
+    padding: 3rem 1.25rem;
+    text-align: center;
+
+    > :not(.hero-map) {
+      max-width: none;
+    }
+
+    .hero-logo {
+      margin: 0 auto 1.5rem;
+    }
+
+    .hero-buttons {
+      justify-content: center;
+    }
+
+    // Too little room beside the text on small screens: keep it as a faint wash.
+    .hero-map {
+      width: 100%;
+      opacity: 0.18;
+      -webkit-mask-image: none;
+      mask-image: none;
+    }
   }
 }

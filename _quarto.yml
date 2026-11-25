@@ -9,6 +9,8 @@ project:
     - "research-highlights/*.qmd"
   resources:
     - robots.txt
+    # Referenced only from the inline SVG logo in index.qmd, which Quarto doesn't scan.
+    - assets/gemma-logo-wordmark-navy.png
   # The shared Typst config in research-highlights/_metadata.yml also applies to the
   # listing index, which produces an unwanted (unlinked) PDF. Quarto can't disable an
   # inherited format per-page, so remove that one orphan after rendering.
@@ -25,7 +27,7 @@ website:
     background: primary
     foreground: light
     title: false
-    logo: assets/gemma-logo-white-small.png
+    logo: assets/gemma-logo-white-navbar.png
     logo-alt: "GEMMA project"
     logo-href: index.qmd
     left:

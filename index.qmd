@@ -14,18 +14,32 @@ listing:
 ---
 
 ```{=html}
-<div class="hero-banner">
+<div class="hero-banner column-screen">
 
-  <!-- White-lettering version of the logo for the dark-blue hero. -->
-  <img src="assets/gemma-logo-white.png" alt="GEMMA" class="hero-logo">
+  <!-- GEMMA logo, rebuilt so the tagline stays sharp: the wordmark is the
+       original artwork (assets/gemma-logo-wordmark-navy.png, cropped from
+       gemma-logo-transparent.png); the tagline is vector text set at the
+       original's colour, positions and line widths (textLength). -->
+  <svg class="hero-logo" viewBox="0 0 816 253" role="img"
+       aria-label="GEMMA: Greenhouse Gas Emissions Measurement and Modelling Advancement">
+    <image href="assets/gemma-logo-wordmark-navy.png" x="0" y="0" width="816" height="143"/>
+    <g fill="#012f6b" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+       font-size="39" text-anchor="middle" aria-hidden="true">
+      <text x="408" y="193" textLength="533" lengthAdjust="spacing">Greenhouse Gas Emissions</text>
+      <text x="408" y="245" textLength="816" lengthAdjust="spacing">Measurement and Modelling Advancement</text>
+    </g>
+  </svg>
   <p class="lead">
     Advancing greenhouse gas measurement and modelling to support
     UK climate policy and global emissions accountability.
   </p>
   <div class="hero-buttons">
-    <a href="about.qmd" class="btn btn-light btn-lg">About the project</a>
-    <a href="research-highlights/index.qmd" class="btn btn-outline-light btn-lg">Research highlights</a>
+    <a href="about.qmd" class="btn btn-primary btn-lg">About the project</a>
+    <a href="research-highlights/index.qmd" class="btn btn-outline-primary btn-lg">Research highlights</a>
   </div>
+  <!-- Decorative strip: emissions map of southern England and Wales, faded in
+       from the hero background by a CSS mask. -->
+  <div class="hero-map" aria-hidden="true"></div>
 </div>
 ```
 
@@ -35,7 +49,7 @@ listing:
      The image is displayed at up to 280 px wide at its natural proportions,
      so portrait-format maps work well here.
      Update the alt text and the figcaption to describe the specific figure.  -->
-<div class="feature-split">
+<div class="feature-split column-screen">
   <div class="feature-split-text">
     <h2>Independent, atmosphere-based estimates of UK greenhouse gas emissions</h2>
     <p>GEMMA combines measurements from atmospheric monitoring stations across the
@@ -53,7 +67,7 @@ listing:
 ```
 
 ```{=html}
-<div class="stats-bar">
+<div class="stats-bar column-screen">
   <div class="stats-inner">
     <div class="stat-item">
       <span class="stat-number">9</span>
@@ -76,23 +90,25 @@ listing:
      title INSIDE it — see `section.section-header` in custom.scss. No inner
      wrapper divs needed. -->
 
-## About the project {.section-header}
+## About the project {.section-header .column-screen}
 
-The GEMMA project (Greenhouse gas Emissions Measurement and Modelling Advancement) is a
-UK research collaboration bringing together expertise in atmospheric measurement,
-inverse modelling, and climate science. Our goal is to improve the accuracy and
-credibility of national greenhouse gas inventories and support evidence-based
-climate policy.
+GEMMA (Greenhouse gas Emissions Measurement and Modelling Advancement) is a UK
+research collaboration of nine organisations, led by the National Physical
+Laboratory and funded by UKRI from April 2023 to March 2027. It develops ways to
+check the UK's reported greenhouse gas emissions against what is measured in the
+atmosphere.
 
-We develop novel measurement techniques, deploy cutting-edge observation networks,
-and combine these with state-of-the-art atmospheric models to independently verify
-reported emissions across the UK and beyond.
+GEMMA has added instruments to the UK's atmospheric monitoring network, supported
+a new ten-station network that measures carbon dioxide and methane using sunlight,
+and improved the inverse models that turn these measurements into emissions
+estimates. The aim is a system that can report UK emissions month by month, as an
+independent check on the national greenhouse gas inventory.
 
 ::: {style="text-align: center; margin-top: 1.75rem;"}
 [Read more about GEMMA](about.qmd){.btn .btn-primary}
 :::
 
-## Recent research highlights {.section-header .section-tinted}
+## Recent research highlights {.section-header .section-tinted .column-screen}
 
 ::: {#recent-highlights}
 :::
@@ -101,7 +117,7 @@ reported emissions across the UK and beyond.
 [View all research highlights](research-highlights/index.qmd){.btn .btn-primary}
 :::
 
-## Our partners {.section-header}
+## Our partners {.section-header .column-screen}
 
 ::: {.partner-logos}
 <!-- Each partner links to its homepage. Once a logo file lands in assets/logos/,
