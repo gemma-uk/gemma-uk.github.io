@@ -1,6 +1,6 @@
 # GEMMA project website
 
-Source for the GEMMA (Greenhouse gas Measurement and Modelling Advancement)
+Source for the GEMMA (Greenhouse gas Emissions Measurement and Modelling Advancement)
 project website, built with [Quarto](https://quarto.org) and deployed to
 GitHub Pages.
 

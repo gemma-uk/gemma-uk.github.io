@@ -112,7 +112,7 @@
     grid(
       columns: (1fr, auto),
       align: (left + horizon, right + horizon),
-      [GEMMA — Greenhouse gas Measurement and Modelling Advancement · gemma-uk.github.io · Funded by UKRI],
+      [GEMMA — Greenhouse gas Emissions Measurement and Modelling Advancement · gemma-uk.github.io · Funded by UKRI],
       counter(page).display(),
     )
   })

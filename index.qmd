@@ -1,6 +1,6 @@
 ---
 title: ""
-pagetitle: "GEMMA – Greenhouse gas Measurement and Modelling Advancement"
+pagetitle: "GEMMA – Greenhouse gas Emissions Measurement and Modelling Advancement"
 listing:
   - id: recent-highlights
     contents:
@@ -16,13 +16,8 @@ listing:
 ```{=html}
 <div class="hero-banner">
 
-  <!-- GEMMA logo ────────────────────────────────────────────────────────────
-       Once you have the logo file, replace the placeholder <div> below with:
-         <img src="assets/gemma-logo-white.png" alt="GEMMA" class="hero-logo">
-       Use a white or light-coloured version of the logo (background is dark blue).
-       Recommended: SVG or PNG, roughly 200–300 px wide, transparent background.
-       Also uncomment the three logo-* lines in _quarto.yml for the navbar.  ── -->
-  <img src="assets/gemma-logo-transparent.png" alt="GEMMA" class="hero-logo">
+  <!-- White-lettering version of the logo for the dark-blue hero. -->
+  <img src="assets/gemma-logo-white.png" alt="GEMMA" class="hero-logo">
   <p class="lead">
     Advancing greenhouse gas measurement and modelling to support
     UK climate policy and global emissions accountability.
@@ -83,7 +78,7 @@ listing:
 
 ## About the project {.section-header}
 
-The GEMMA project (Greenhouse gas Measurement and Modelling Advancement) is a
+The GEMMA project (Greenhouse gas Emissions Measurement and Modelling Advancement) is a
 UK research collaboration bringing together expertise in atmospheric measurement,
 inverse modelling, and climate science. Our goal is to improve the accuracy and
 credibility of national greenhouse gas inventories and support evidence-based

@@ -4,7 +4,7 @@ title: "About GEMMA"
 
 ## Background
 
-The GEMMA project (Greenhouse gas Measurement and Modelling Advancement) was
+The GEMMA project (Greenhouse gas Emissions Measurement and Modelling Advancement) was
 established to address a fundamental challenge in climate science and government policy: how can we ensure that national greenhouse gas emissions estimates are accurate, timely, and credible?
 
 GEMMA develops the science and tools needed to

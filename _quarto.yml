@@ -17,7 +17,7 @@ project:
 
 website:
   title: "GEMMA"
-  description: "Greenhouse gas Measurement and Modelling Advancement"
+  description: "Greenhouse gas Emissions Measurement and Modelling Advancement"
 
   site-url: "https://gemma-uk.github.io"
 
@@ -25,7 +25,7 @@ website:
     background: primary
     foreground: light
     title: false
-    logo: assets/gemma-logo-transparent-small.png
+    logo: assets/gemma-logo-white-small.png
     logo-alt: "GEMMA project"
     logo-href: index.qmd
     left:
@@ -59,7 +59,7 @@ website:
 
   open-graph:
     site-name: "GEMMA project"
-    description: "Greenhouse gas Measurement and Modelling Advancement"
+    description: "Greenhouse gas Emissions Measurement and Modelling Advancement"
     image: /assets/gemma-logo-og.png
 
 # UK-style dates (e.g. "24 June 2026") on title blocks and listing cards.
