@@ -48,7 +48,8 @@ description: >
 :::
 
 ::: {.highlight-meta}
-**GEMMA Console:** [gemmaconsole.openghg.org](https://gemmaconsole.openghg.org/) (password protected; currently shared with key users)
+[**GEMMA Console:** [find out more and request access](../console.qmd)]{.content-visible when-format="html"}
+[**GEMMA Console:** [find out more and request access](https://gemma-uk.github.io/console.html)]{.content-visible when-format="typst"}
 :::
 
 ## Why this matters

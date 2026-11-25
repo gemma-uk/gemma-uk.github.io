@@ -40,7 +40,7 @@ website:
       - text: "Team"
         href: team.qmd
       - text: GEMMA Console
-        href: https://gemmaconsole.openghg.org/
+        href: console.qmd
 
     right:
       - icon: github
@@ -71,6 +71,3 @@ format:
     toc: false
     link-external-icon: true
     link-external-newwindow: true
-    include-in-header:
-      - text: |
-          <meta name="robots" content="noindex, nofollow">

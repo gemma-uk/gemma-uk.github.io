@@ -1,0 +1,46 @@
+---
+title: "GEMMA Console"
+description: >
+  A prototype online dashboard that compares UK greenhouse gas emissions
+  estimated from atmospheric measurements with the UK greenhouse gas inventory.
+---
+
+The GEMMA Console is a prototype online dashboard built by GEMMA. It shows UK
+greenhouse gas emissions estimated from atmospheric measurements ("top-down"
+estimates) next to the UK greenhouse gas inventory, the official record of UK
+emissions. Users can see, gas by gas, where the two kinds of estimate agree and
+where they differ.
+
+![The GEMMA Console, showing monthly UK methane emissions estimated from atmospheric measurements by two inverse modelling systems, the University of Bristol's RHIME (blue) and the Met Office's InTEM (orange), compared with the 2025 edition of the UK greenhouse gas inventory (dark line), 2014 to 2023. Shaded bands show the uncertainty in each estimate.](/research-highlights/figures/gemma-dashboard-fig1.png){fig-alt="Screenshot of the GEMMA Console dashboard titled UK National Emissions, with drop-down menus to choose a gas and time resolution. A chart of UK methane emissions from 2014 to 2023, in million tonnes of CO₂ equivalent, shows the inventory as a slowly declining dark line near 60, with a shaded uncertainty band. Monthly estimates from RHIME (blue) and InTEM (orange) fluctuate between about 30 and 70, each with a shaded uncertainty band."}
+
+## What it shows
+
+Users choose a gas and whether to view monthly or yearly figures, and can see:
+
+- UK totals over time from each inverse modelling system, with their uncertainty ranges, alongside
+  the inventory;
+- maps showing where in the UK emissions come from;
+- breakdowns by sector.
+
+The console covers methane (CH₄), nitrous oxide (N₂O) and the fluorinated gases
+covered by the Paris Agreement: hydrofluorocarbons (HFCs), perfluorocarbons
+(PFCs), sulphur hexafluoride (SF₆) and nitrogen trifluoride (NF₃). Top-down
+estimates currently come from two inverse modelling systems: the Met Office's
+Inversion Technique for Emissions Modelling (InTEM) and the University of
+Bristol's RHIME. In this phase of GEMMA the estimates are updated about once a
+year.
+
+The [GEMMA Console research highlight](research-highlights/gemma-console.qmd)
+explains why this matters for policy and what comes next.
+
+## Access
+
+The console is a prototype and is not open to the public. While GEMMA works out
+how to present the results to a wider audience without causing confusion, access
+is limited to selected users.
+
+**Access is available on request.** To request an account, choose "Create
+account" on the console's sign-in page. Each request is reviewed by the GEMMA team
+before access is granted.
+
+[Go to the GEMMA Console](https://gemmaconsole.openghg.org/){.btn .btn-primary}

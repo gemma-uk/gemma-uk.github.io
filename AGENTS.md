@@ -129,7 +129,7 @@ Partner names (exact):
 ```
 _quarto.yml              # site config, render list, navbar, footer, OG, theme
 custom.scss              # all custom styles — Sass variables then rules
-robots.txt               # currently blocks all crawlers (soft launch)
+robots.txt               # allows all crawlers; points to the Quarto-generated sitemap
 index.qmd                # home page (hero, feature split, stats bar, recent highlights, partners)
 about.qmd                # project background, objectives, consortium, funding
 team.qmd                 # PI and researcher profiles
@@ -274,6 +274,6 @@ Deployment is automatic: `.github/workflows/publish.yml` renders the site and
 deploys it to GitHub Pages on every push to `main`. Do not manually edit files
 under `_site/` — it is the build output directory.
 
-The site is in soft launch: `robots.txt` disallows all crawlers and
-`_quarto.yml` adds a `noindex, nofollow` meta tag. Remove both when the site goes
-public.
+The site is public and indexed by search engines: `robots.txt` allows all
+crawlers and points to the `sitemap.xml` that Quarto generates from `site-url`.
+Anything pushed to `main` is published, so keep drafts on a branch.

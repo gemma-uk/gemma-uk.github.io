@@ -15,20 +15,21 @@ advanced inverse modelling techniques. It is designed as a prototype for a futur
 
 The project has four principal objectives:
 
-1. **Advance measurement capability** – develop and deploy next-generation
-   instruments for precise, traceable greenhouse gas measurements across the UK.
+1. **A "live" UK emissions console** – demonstrate that a
+   [UK greenhouse gas emissions console](console.qmd) can provide timely
+   emissions estimates for the UK, broken down by sector, combining top-down and bottom-up approaches.
 
-2. **Improve atmospheric inversion methods** – refine the statistical and
-   computational techniques used to infer surface emissions from atmospheric
-   concentration data.
+2. **New measurement opportunities** – explore and validate new ways of measuring
+   greenhouse gases, combining atmospheric sampling and remote sensing instruments, to
+   improve the quality and geographical spread of UK observations.
 
-3. **Evaluate national inventories** – produce independent, observation-based
-   estimates of UK greenhouse gas emissions and compare these with official
-   reported figures.
+3. **Better instruments and inverse methods** – advance scientific instruments and
+   inverse modelling methods (including multiple independent modelling systems) so
+   that atmospheric measurements can be turned into emissions estimates more
+   reliably, and bring them to operational maturity.
 
-4. **Inform policy** – translate scientific findings into accessible, actionable
-   outputs for government, regulators, and international frameworks such as the
-   Global Stocktake under the Paris Agreement.
+4. **A lasting programme** – establish the basis for an ongoing programme to inform
+   and assure the UK's progress towards net zero.
 
 ## Gases and sectors covered
 
